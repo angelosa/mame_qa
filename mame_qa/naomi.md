@@ -285,7 +285,7 @@ Last update: January 2022
 |trghearto|trgheart|no|
 |trizeal|naomigd|no|_untested_|~~Hangs on attract/after pressing start (ADX, regression?)~~|
 |undefeat|naomigd|partial?|_Tested up to stage 2 boss_|Explosions have Z sort issues (noticeable on bosses)|
-|usagiym|naomigd|no|_Played up to 2nd round, until the hang_|Screen is not masked for the right edge (repeats the left column)<br><br>Chapman hints are submerged (horse and face covering tiles)<br><br>Doesn't show ryuukyoku/exhaustive draw hands (verify)<br><br>Underlying faces are squared cut off when winning hand<br><br>Seems to hang on Chombo situations, cfr. [MT#8152](https://mametesters.org/view.php?id=8152)<br><br>Has comms mode in service mode (3rd option -> 1st)|
+|usagiym|naomigd|no|_Played up to 2nd round, until the hang_|Screen is not masked for the right edge (repeats the left column)<br><br>Chapman hints are submerged (horse and face covering tiles)<br><br>Doesn't show ryuukyoku/exhaustive draw hands<br><br>Underlying faces are squared cut off when winning hand<br><br>Seems to hang on Chombo situations, cfr. [MT#8152](https://mametesters.org/view.php?id=8152)<br><br>Has comms mode in service mode (3rd option -> 1st)|
 |vathlete|naomigd|no|_Untested on gameplay_|~~Hangs during attract/gameplay (ADX)~~<br><br>Has several bare polygons that hides underlying explainations on how to play|
 |vathletep|vathlete|no|
 |vf4|naomi2|no||
