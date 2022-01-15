@@ -2,6 +2,8 @@
 
 Last update: January 2022
 
+- NAOMI2 aren't really tested at current point (they all hang waiting for the T&L chip)
+
 ## Full Compatibility Table
 
 |romset|parent|supported|Testing notes|Emulation Notes|
