@@ -17,7 +17,7 @@ Last update: January 2022
 |alienfnt|naomi|no||No inputs hooked<br><br>Needs optical drive connection (master-slave), bypass with start button<br><br>Title screen has Z sort issues (flashes goes above backdrop)<br><br>Earth render looks ugly with no bilinear filtering in attract and when coined up<br><br>MAME process exited once with non-zero status code 3 (investigate)|
 |alienfnta|alienfnt|no|
 |alpilot|airlbios|no||Throws "Error 03" when booting|
-|alpilotj|naomi|?||Punts with error 51 (system assignments: 1 player set)<br><br>Wants 31 kHz Mode|
+|alpilotj|naomi|partial?||Punts with error 51 (system assignments: 1 player set)<br><br>Wants 31 kHz Mode|
 |anmlbskt|awbios|yes?|_Can be run at 100% on high end hosts, made a bunch of .inp attempts_|Running memory test makes performance to dip (executing invalid code?)<br><br>Game select has BGM hiccups, eventually silent<br><br>Game start fanfare sounds with a bit of crackle at end.<br><br>~~Verify game graphics (priorities are dubious in some gameplay places)~~|
 |anmlbskta|anmlbskt|yes?|
 |anpanman2|naomi|no||Punts with error 51 (system assignments: 1 player set)<br><br>Wants 31 kHz Mode<br><br>Punts with "I/O BD CONNECTED TO NAOMI BD DOES NOT FULLFILL GAME SPECS."<br><br>Service mode is almost unusable, service button being always held (workaround: press TEST three items above the wanted one). Trouble Check returns error code = -17 / machine status = -1|
@@ -89,7 +89,7 @@ Last update: January 2022
 |f355twin|f355bios|no||"Looking for master"<br><br>No inputs|
 |f355twinp|f355twin|no||"Looking for master"<br><br>No inputs|
 |f355twn2|f355bios|no||"Looking for master"<br><br>No inputs|
-|fotns|awbios|no|_Played up to stage 2_|Randomly hangs during gameplay (-drc?)<br><br>Several GFX issues during intro<br><br>Gameplay sports incomplete GFXs on fade-ins/-outs|
+|fotns|awbios|no|_Played up to stage 2_|Randomly hangs during gameplay (-drc?)<br><br>Several GFX issues during intro<br><br>Gameplay sports incomplete GFXs on fade-ins/-outs<br><br>Exiting from service mode (while entering from For use in Japan) will cause RAM corruption (cfr. the corrupted For use in Japan second time around, repeated ADX sounds in OP etc.)|
 |ftspeed|awbios|no||cannot calibrate inputs<br><br>camera looks too low in gameplay<br><br>punts with "Fatal error: SH4MMU: associative mode writes unsupported" when exiting from service mode|
 |ggisuka|awbios|no|_untested other than brief round_|HP bars draws with wrong polygon vertices<br><br>Black screens when exited from service mode|
 |ggram2|naomi|partial?|_Tested one match_|Hit confirms doesn't blend properly<br><br>Shadows doesn't draw behind text box in how to play screen in attract<br><br>Has frame skip issues, mostly noticeable during wrestler entrances|
