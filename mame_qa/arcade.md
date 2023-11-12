@@ -7,6 +7,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | driver file | romset | description | QA note |
 |-|-|-|-|
 | [acorn/aristmk5.cpp](https://github.com/mamedev/mame/blob/master/src/mame/acorn/aristmk5.cpp) | `*` | `*` | _Acorn Archimedes with heavy Gambling overrides_ |
+| [acorn/ssfindo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/acorn/ssfindo.cpp) | tetfight | Tetris Fighters | `severe frame hiccups` |
 | [adp/adp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/adp/adp.cpp) | funlddlx | Funny Land de Luxe | `keeps looping between F_IN and FOUL messages` |
 | [adp/adp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/adp/adp.cpp) | fstation | Fun Station Spielekoffer 9 Spiele | `suntris crashes when executing HD63484 paint commands` |
 | [adp/manohman.cpp](https://github.com/mamedev/mame/blob/master/src/mame/adp/manohman.cpp) | manohman | Mann, oh-Mann |  |
@@ -19,11 +20,16 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [amiga/cubo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/cubo.cpp) | lsrquizg | Laser Quiz Greece | `doesn't accept coins, no player 2 inputs (ingame), wrong pitch for most gfxs, access violation during gameplay or on emu exit (microtouch?)` |
 | [amiga/cubo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/cubo.cpp) | lsrquiz2i | Laser Quiz 2 Italy (v1.0) | `wrong pitch for some gfxs, access violation during gameplay (microtouch?)` |
 | [amiga/cubo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/cubo.cpp) | eldoralg | Eldorado (4.2) | `touchscreen is offset and cannot be calibrated, joystick buttons aren't recognized properly, has slight GFX bug with roulette ball` |
+| [amiga/cubo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/cubo.cpp) | odeontw | Odeon Twister (v1.4) | `"Invalid NVRAM", accesses area $6xxxxx and claims invalid RAM config if bypassed` |
+| [amiga/cubo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/cubo.cpp) | odeontw2 | Odeon Twister 2 (v202.19) | `Resets halfway thru "please wait" in service mode, therefore NVRAM cannot be inited` |
 | [amiga/mquake.cpp](https://github.com/mamedev/mame/blob/master/src/mame/amiga/mquake.cpp) | mquake | Moonquake |  |
 | [aristocrat/aristmk4.cpp](https://github.com/mamedev/mame/blob/master/src/mame/aristocrat/aristmk4.cpp) | 86lions | 86 Lions |  |
 | [aristocrat/aristmk4.cpp](https://github.com/mamedev/mame/blob/master/src/mame/aristocrat/aristmk4.cpp) | clkwise | Clockwise (1VXEC534, New Zealand) |  |
 | [aristocrat/aristmk6.cpp](https://github.com/mamedev/mame/blob/master/src/mame/aristocrat/aristmk6.cpp) | `*` | `*` | _SH-4 based with MMU and PowerVR 250_ |
 | [atari/a2600.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/a2600.cpp) | a2600_pop | Atari 2600 Point of Purchase Display |  |
+| [atari/atarigx2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atarigx2.cpp) | rrreveng | Road Riot's Revenge (prototype, Sep 06, 1994) |  |
+| [atari/atarigx2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atarigx2.cpp) | rrrevenga | Road Riot's Revenge (prototype, Jan 27, 1994, set 1) |  |
+| [atari/atarigx2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atarigx2.cpp) | rrrevengb | Road Riot's Revenge (prototype, Jan 27, 1994, set 2) |  |
 | [atari/atarisy2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atarisy2.cpp) | paperboyp | Paperboy (prototype) |  |
 | [atari/atarittl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atarittl.cpp) | `*` | `*` | _Misc. Atari TTL based games_ |
 | [atari/atetris.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/atetris.cpp) | atetrisb5 | Tetris (bootleg set 5) |  |
@@ -32,15 +38,20 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [atari/badlands_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/badlands_ms.cpp) | badlandsm | Bad Lands (Modular System) |  |
 | [atari/bartop52.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/bartop52.cpp) | barbball | Barroom Baseball (prototype) |  |
 | [atari/bwidow.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/bwidow.cpp) | bwidowp | Black Widow (prototype) |  |
+| [atari/bzone.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/bzone.cpp) | dsrtwars | Desert Wars (bootleg of Battle Zone) |  |
+| [atari/centiped.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/centiped.cpp) | magworma | Magic Worm (bootleg of Centipede, set 2) |  |
 | [atari/cmmb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/cmmb.cpp) | cmmb103 | Centipede / Millipede / Missile Command (rev 1.03) |  |
 | [atari/cmmb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/cmmb.cpp) | cmmb162 | Centipede / Millipede / Missile Command / Let's Go Bowling (rev 1.62) |  |
 | [atari/cops.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/cops.cpp) | cops | Cops (USA) |  |
 | [atari/cops.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/cops.cpp) | copsuk | Cops (UK) |  |
 | [atari/cops.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/cops.cpp) | revlatns | Revelations |  |
 | [atari/harddriv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/harddriv.cpp) | steeltalp | Steel Talons (prototype) |  |
+| [atari/harddriv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/harddriv.cpp) | hdrivairp | Hard Drivin's Airborne (prototype, early rev) |  |
+| [atari/hitparade.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/hitparade.cpp) | hitpar | Hit Parade 108 / 144 / 160 |  |
 | [atari/klax.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/klax.cpp) | klax5bl3 | Klax (version 5, bootleg set 3) |  |
 | [atari/mediagx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/mediagx.cpp) | a51site4 | Area 51: Site 4 (HD Rev 2.01, September 7, 1998) |  |
 | [atari/mediagx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/mediagx.cpp) | a51site4a | Area 51: Site 4 (HD Rev 2.0, September 11, 1998) |  |
+| [atari/metalmx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/metalmx.cpp) | metalmx | Metal Maniax (prototype) |  |
 | [atari/missile.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/missile.cpp) | mcombat | Missile Combat (Videotron bootleg, set 1) |  |
 | [atari/missile.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/missile.cpp) | mcombata | Missile Combat (Videotron bootleg, set 2) |  |
 | [atari/missile.cpp](https://github.com/mamedev/mame/blob/master/src/mame/atari/missile.cpp) | mcombats | Missile Combat (Sidam bootleg) |  |
@@ -60,9 +71,22 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [bfm/bfm_swp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/bfm/bfm_swp.cpp) | c3_totp | Top of the Pops (Bellfruit) (Cobra 3?) |  |
 | [bfm/bfm_swp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/bfm/bfm_swp.cpp) | c3_ppays | The Phrase That Pays (Bellfruit) (Cobra 3?) |  |
 | [bmc/koftball.cpp](https://github.com/mamedev/mame/blob/master/src/mame/bmc/koftball.cpp) | koftball | King of Football |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | alien | Alien: The Arcade Medal Edition |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | dkbanana | Donkey Kong Banana Kingdom (host) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | dkbanans | Donkey Kong Banana Kingdom (satellite) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | masmario | Super Mario Fushigi no Korokoro Party (center) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | masmarios | Super Mario Fushigi no Korokoro Party (satellite) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | masmario2 | Super Mario Fushigi no Korokoro Party 2 |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | mariojjl | Super Mario Fushigi no JanJanLand (Ver.1.00C, 2006/08/29) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | mmaruchan | Chibi Maruko-chan ~Minna de Sugoroku Asobi~ no Maki (Ver.1.00B, 2005/06/22) | `ちびまる子ちゃん「みんなですごろく遊び」の巻` |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | mmaruchana | Chibi Maruko-chan ~Minna de Sugoroku Asobi~ no Maki (Ver.1.00A, 2004/04/20) | `ちびまる子ちゃん「みんなですごろく遊び」の巻` |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | dokodemo | Doko Demo Issho: Toro's Fishing (Ver.1.00, 2006/06/07) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | pingu | Pingu's Ice Block (Ver.1.00 2006/01/27) |  |
+| [capcom/alien.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/alien.cpp) | wontame | Won! Tertainment Happy Channel (Ver.1.00E 2008/02/21) |  |
 | [capcom/blktiger_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/blktiger_ms.cpp) | blktigerm | Black Tiger (Modular System) |  |
 | [capcom/cps1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/cps1.cpp) | sf2stt | Street Fighter II: The World Warrior (TAB Austria, bootleg, set 2) | `910214 - based on World version` |
 | [capcom/cps1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/cps1.cpp) | sf2amf | Street Fighter II': Champion Edition (Alpha Magic-F, bootleg) | `920313 - based on World version` |
+| [capcom/cps1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/cps1.cpp) | varthb3 | Varth: Operation Thunderstorm (bootleg, set 3) | `USA 920612, different 'mapper'?` |
 | [capcom/cps1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/cps1.cpp) | pmonster | Gamushara Battle! Puchi Monster (Japan 990519) | `Needs hopper emulation` |
 | [capcom/mitchell.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/mitchell.cpp) | pkladiesbl | Poker Ladies (Censored bootleg, encrypted) | `by Playmark? need to figure out CPU 'decryption' / ordering` |
 | [capcom/mitchell.cpp](https://github.com/mamedev/mame/blob/master/src/mame/capcom/mitchell.cpp) | pkladiesbl2 | Poker Ladies (Censored bootleg, not encrypted) | `by Playmark? needs inputs, EEPROM (?), MSM5205 hook up, GFX fixes` |
@@ -83,27 +107,43 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [dataeast/cntsteer.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/cntsteer.cpp) | gekitsui | Gekitsui Oh (Japan) |  |
 | [dataeast/cntsteer.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/cntsteer.cpp) | cntsteer | Counter Steer (Japan) |  |
 | [dataeast/dec0.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp) | bandit | Bandit (US) |  |
+| [dataeast/dec0.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp) | ffantasybl | Fighting Fantasy (bootleg with 68705) | `68705 not dumped, might be the same as midresb` |
 | [dataeast/dec0.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp) | automat | Automat (bootleg of Robocop) | `sound rom / music from section z with mods for ADPCM?` |
 | [dataeast/dec0.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp) | secretab | Secret Agent (bootleg) |  |
 | [dataeast/dec0.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec0.cpp) | mastbond | Master Bond (bootleg of Secret Agent) |  |
 | [dataeast/dec8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/dec8.cpp) | ghostb3a | The Real Ghostbusters (US 3 Players, revision 2) | `ROMs confirmed working on PCB - stalls in demo mode` |
+| [dataeast/deco32.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco32.cpp) | lockload | Locked 'n Loaded (World) | `hangs during attract mode if let running for a while without coining up; shooting in the lower corners during calibration of player's 2 gun hangs the game` |
+| [dataeast/deco32.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco32.cpp) | gunhard | Gun Hard (Japan) | `"` |
+| [dataeast/deco32.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco32.cpp) | lockloadu | Locked 'n Loaded (US, Dragon Gun conversion) | `"` |
 | [dataeast/deco_ld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_ld.cpp) | begas | Bega's Battle (Revision 3) |  |
 | [dataeast/deco_ld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_ld.cpp) | begas1 | Bega's Battle (Revision 1) |  |
 | [dataeast/deco_ld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_ld.cpp) | cobra | Cobra Command (Data East LD, set 1) |  |
 | [dataeast/deco_ld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_ld.cpp) | cobraa | Cobra Command (Data East LD, set 2) | `might be a prototype` |
 | [dataeast/deco_ld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_ld.cpp) | rblaster | Road Blaster (Data East LD) |  |
+| [dataeast/deco_mlc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_mlc.cpp) | stadhr96j2 | Stadium Hero '96 (Japan?, EAE) | `Rom labels are EAE ^^` |
+| [dataeast/deco_mlc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_mlc.cpp) | skullfng | Skull Fang (Europe 1.13) | `Version 1.13, Europe, Master 96.02.19 13:45` |
+| [dataeast/deco_mlc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_mlc.cpp) | skullfngj | Skull Fang - Kuhga Gaiden (Japan 1.09) | `Version 1.09, Japan, Master 96.02.08 14:39` |
+| [dataeast/deco_mlc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deco_mlc.cpp) | skullfnga | Skull Fang - Kuhga Gaiden (Asia 1.13) | `Version 1.13, Asia, Master 96.02.19 13:49` |
+| [dataeast/deshoros.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/deshoros.cpp) | destiny | Destiny - The Fortuneteller (USA) |  |
 | [dataeast/ffantasy_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/ffantasy_ms.cpp) | ffantasym | Fighting Fantasy (Modular System) |  |
 | [dataeast/ffantasy_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/ffantasy_ms.cpp) | drgninjam | Dragon Ninja (Modular System) |  |
 | [dataeast/karnov.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/karnov.cpp) | karnovjbl | Karnov (Japan, bootleg with NEC D8748HD) |  |
 | [dataeast/pcktgal.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/pcktgal.cpp) | pcktgalba | Pocket Gal / unknown card game | `only the Pocket Gal game is emulated` |
 | [dataeast/progolf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/progolf.cpp) | progolfa | 18 Holes Pro Golf (set 2) |  |
+| [dataeast/tumbleb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/tumbleb.cpp) | tumblepba | Tumble Pop (Playmark bootleg) | `Playmark stickers on ROMs, offset pf1_alt tilemap, OKI banking not confirmed + volume issues?` |
+| [dataeast/tumbleb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dataeast/tumbleb.cpp) | funkyjetb | Funky Jet (bootleg) | `wrong palette, inputs not working, PIC driving an OKI` |
+| [dynax/ddenlovr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/ddenlovr.cpp) | momotaro | Mahjong Momotarou [BET] (Japan, T027-RB-01) |  |
 | [dynax/dynax.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/dynax.cpp) | tenkai2b | Mahjong Tenkaigen Part 2 (bootleg) | `FIXME: check if Japan & Bet` |
 | [dynax/dynax.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/dynax.cpp) | ougonhai | Mahjong Ougon no Hai (Japan) | `FIXME: confirm being a Bet game as well` |
 | [dynax/dynax.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/dynax.cpp) | ougonhaib3 | Mahjong Ougon no Hai (Japan bootleg set 3, Bet) |  |
 | [dynax/dynax.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/dynax.cpp) | majrjhdx | Mahjong Raijinhai DX |  |
+| [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | chalgirl | Challenge Girl (Falcon bootleg) | `verify ROM loading / banking, bad girl colors` |
+| [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | rkjanoh2 | Royal King Jang Oh 2 (v4.00 1984 Jun 10th) | `never seems to set the palette bank?` |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | janoh | Jan Oh (set 1) |  |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | janoha | Jan Oh (set 2) | `this one is complete?` |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | jansou | Jansou (set 1) |  |
+| [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | mjsiyoub | Mahjong Shiyou (Japan) | `MSM5205 isn't hooked up, colors need to be verified against original` |
+| [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | mjsenka | Mahjong Senka (Japan) | `never seems to set the palette bank?` |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | mjdejavu | Mahjong Shinkirou Deja Vu (Japan) | `MT #00964` |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | mjdejav2 | Mahjong Shinkirou Deja Vu 2 (Japan) |  |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | cafedoll | Mahjong Cafe Doll (Japan) | `missing internal ROM dump` |
@@ -113,9 +153,13 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | cafebrk | Mahjong Cafe Break | `missing internal ROM dump` |
 | [dynax/royalmah.cpp](https://github.com/mamedev/mame/blob/master/src/mame/dynax/royalmah.cpp) | cafepara | Mahjong Cafe Paradise (Ver. 1.00) | `needs correct banking and / or ROM descrambling` |
 | [efo/cedar_magnet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/efo/cedar_magnet.cpp) | mag_drac | Dracula's Castle (Magnet System) |  |
+| [eolith/eolith.cpp](https://github.com/mamedev/mame/blob/master/src/mame/eolith/eolith.cpp) | raccoon | Raccoon World |  |
 | [exidy/exidy440.cpp](https://github.com/mamedev/mame/blob/master/src/mame/exidy/exidy440.cpp) | showdown4 | Showdown (version 4.0) | `no PLD, but it does have a chip at location 11-B on the board (markings removed).` |
 | [exidy/exidyttl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/exidy/exidyttl.cpp) | `*` | `*` | _Misc. Exidy TTL based games_ |
 | [f32/f-32.cpp](https://github.com/mamedev/mame/blob/master/src/mame/f32/f-32.cpp) | royalpk2 | Royal Poker 2 (Network version 3.12) |  |
+| [funworld/4roses.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/4roses.cpp) | 4roses | Four Roses (encrypted, set 1) |  |
+| [funworld/4roses.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/4roses.cpp) | 4rosesa | Four Roses (encrypted, set 2) |  |
+| [funworld/4roses.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/4roses.cpp) | rugby | Rugby? (four roses hardware) |  |
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | jolyjokrc | Jolly Joker (Apple Time) | `bad program ROM...` |
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | multiwinb | Multi Win (EPM7032, encrypted) | `daughterboard with R65C02 + Altera EPM7032.` |
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | novoplaya | Novo Play (V6.2H) |  |
@@ -127,10 +171,17 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | royalcrd_nes | Royal Card (stealth with NES multigame, set 1) |  |
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | royalcrd_nesa | Royal Card (stealth with NES multigame, set 2) |  |
 | [funworld/funworld.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/funworld.cpp) | royalcrd_msx | Royal Card (stealth with MSX multigame) |  |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply98sp | Photo Play 1998 (Spain) | `"Non system disk or I/O error"` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply99sp | Photo Play 1999 (Spain) | `"CON device not opened. System halted" before PTS-DOS` |
 | [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply99nl | Photo Play 1999 (Netherlands) | `Boots to funworld logo, enter into an EULA screen that needs trackball inputs to accept` |
 | [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k | Photo Play 2000 (v2.01) | `Fails PTS-DOS bootstrap around PC=7dc5, likely bad dump` |
 | [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2ksp | Photo Play 2000 (Spain) | `Fails PTS-DOS bootstrap with various memory management errors (in German), likely bad dump` |
 | [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2knl | Photo Play 2000 (Netherlands) | `Punts in PTS-DOS after failing ES1868 detection, keyboard is unresponsive` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k1it | Photo Play 2001 (Italy) | `Boots to funworld logo, draws a "TouchScreen Error" with countdown that will hard reset the machine` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k1nl | Photo Play 2001 (Netherlands) | `"Non system disk or I/O error"` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k1mtnl | Photo Play Masters 2001 (Netherlands) | `Fails LOGO display at boot (bad dump?), fails touchscreen and ES1868 detection, draws a "TouchScreen Error" with countdown that will hard reset the machine` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k2be | Photo Play 2002 (Belgium) | `Boots to funworld logo, draws a "TouchScreen Error" with countdown that will hard reset the machine` |
+| [funworld/photoply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoply.cpp) | photoply2k4 | Photo Play 2004 | `Boots to funworld logo, draws a "TouchScreen Error" with countdown that will hard reset the machine` |
 | [funworld/photoplys.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoplys.cpp) | photoply2k1sp | Photo Play 2001 (Spanish) |  |
 | [funworld/photoplysx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoplysx.cpp) | photopsxsp | Photo Play Spirit Xtreme (Spanish) |  |
 | [funworld/photoplysx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/funworld/photoplysx.cpp) | photopsxusp | Photo Play Spirit Xtreme (update, Spanish) |  |
@@ -175,11 +226,14 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | mutacion | Mutacion (Explomatic Spanish bootleg of Moon Cresta) | `Bad program ROM (bitrot)` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | ckongcv | Crazy Kong (bootleg on Galaxian hardware, encrypted, set 2) |  |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | ckongis | Crazy Kong (bootleg on Galaxian hardware, encrypted, set 3) |  |
+| [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | olibug | Oli Bug (bootleg of Jump Bug) | `one bad GFX ROM, uses Galaxian color PROM?` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | dingoe | Dingo (encrypted) |  |
+| [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | amidarc | Amidar (Cirsa bootleg) | `resets when starting a game` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | ncentury | New Century (Spanish bootleg of Scramble) | `irq isn't enabled correctly` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | scrammr | Scramble (Model Racing, Italian bootleg) | `irq isn't enabled correctly` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | scramblebun | Scramble (unknown bootleg) | `irq isn't enabled correctly` |
 | [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | jungsub | Jungler (Subelectro, bootleg on Scramble hardware) | `mostly works, bad GFX ROM causes lots of glitches` |
+| [galaxian/galaxian.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxian.cpp) | aracnisa | Aracnis (bootleg of Scorpion on Moon Cresta hardware, set 2) | `colors need verifying, resets soon (some protection?)` |
 | [galaxian/galaxold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxold.cpp) | spcwarp | Space Warp? (Cosmos conversion on Galaxian hardware) | `bad dump` |
 | [galaxian/galaxold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxold.cpp) | drivfrcsga | Driving Force (Galaxian conversion, Seatongrove UK, E-0237) | `incomplete dump` |
 | [galaxian/galaxold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/galaxian/galaxold.cpp) | trvchlng | Trivia Challenge |  |
@@ -245,8 +299,12 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | mbs2euro | Mega Bonus Star II (Euro, Millennium Edition) | `need more work in memory map, inputs, and reels alignment.` |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | feverch | Fever Chance (W-6) | `inputs, reels, etc..` |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | bonusch | Bonus Chance (W-8) | `M80C51F MCU` |
+| [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | magoddsc | Magical Odds (set 4, custom encrypted CPU block) |  |
+| [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | magoddsd | Magical Odds (set 5, custom encrypted CPU block) |  |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | roypok96c | Royal Poker '96 (set 4, C3 board) |  |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | noved | Nove Diamante (bootleg) | `needs correct gfx2 region decode, controls, etc` |
+| [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | nfm | New Fruit Machine (Ming-Yang Electronic, vFB02-07A) | `vFB02-07A "Copyright By Ms. Liu Orchis 2003/03/06", needs correct PROM and USER1 regions decode` |
+| [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | nfma | New Fruit Machine (Ming-Yang Electronic, vFB02-01A) | `vFB02-01A "Copyright By Ms. Liu Orchis 2003/03/06", needs correct PROM and USER1 regions decode` |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | cherry96 | New Cherry '96 (bootleg of New Fruit Bonus?) | `need to be moved to another machine...` |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | ss2001 | Super Shanghai 2001 | `TODO: everything` |
 | [igs/goldstar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/goldstar.cpp) | cmtetrisb | Tetris + Cherry Master (+K, Canada Version, encrypted) | `different Tetris game. press insert to throttle and see the attract running.` |
@@ -283,9 +341,25 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [igs/igs_m036.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/igs_m036.cpp) | lhzb3in1 | Long Hu Zhengba San He Yi (V100CN) | `龙虎争霸三合一` |
 | [igs/igs_m036.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/igs_m036.cpp) | igsm312 | unknown 'IGS 6POKER2' game (V312CN) | `there's very little code and no gfx roms, might be a 'set/clear' chip for a gambling game.` |
 | [igs/jackie.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/jackie.cpp) | kungfu | Kung Fu Fighters (IGS, v202N) | `inputs for the fighting part, incorrect decoding` |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | drgw2100hk | Dungfong Zi Zyu II (ver. 100H, Hong Kong) | `(region is shown as Hokg Kong, Dragon World 3 is the same)` |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | martmasttw | Martial Masters / Xing Yi Quan (ver. 102, 101, 101TW) | `68k V102, Ext Arm 101, Int Arm 101TW` |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | dmnfrntpcb | Demon Front V1.1 / Moyu Zhanxian V1.1 (68k label V107KR, ROM M107KR 11/03/03) (ARM label V106KR, ROM 10/16/03 S106KR) (JAMMA PCB) | `works but reports version mismatch (wants internal rom version and region to match external?)` |
 | [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | svgtw | S.V.G. - Spectral vs Generation / Sheng Mo Shiji (M68k label V101TW) (ARM label V101TW, ROM 06/20/05 S.V.G V100) | `68k label was 101 but it's same as v100` |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | olds100a | Oriental Legend Special / Xiyou Shi E Chuan Super (ver. 100, set 2) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | puzlstar | Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/30/99 build) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | puzlstara | Puzzle Star / Mohuan Xingzuo (ver. 100MG, 09/20/99 build) |  |
 | [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | pgm3in1 | Shan Liang San He Yi (Flash 3-in-1) (V102 08/23/04 13:03:26) |  |
 | [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | pgm3in1c100 | Shan Liang San He Yi (Flash 3-in-1) (V100 07/13/04 12:09:20) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | oldsplus | Oriental Legend 2 (Korea) / Xiyou Shi E Chuan Qunmoluanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 205) [Oriental Ex] |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | oldsplus203 | Oriental Legend 2 (Korea) / Xiyou Shi E Chuan Qunmoluanwu (World, China, Japan, Hong Kong, Taiwan) (ver. 203) [Oriental Ex] |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovshp | Knights of Valour Super Heroes Plus / Sanguo Zhan Ji Luanshi Xiaoxiong (ver. 101) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovshp100 | Knights of Valour Super Heroes Plus / Sanguo Zhan Ji Luanshi Xiaoxiong (ver. 100) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovytzy | Knights of Valour Super Heroes / Sanguo Zhan Ji Fengyun Zaiqi / Sangoku Senki Super Heroes (SANGO EX+) (ver. 201 'Yitong Zhongyuan', China) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovshxas | Aoshi Sanguo (bootleg of Knights of Valour Super Heroes Plus, V202CN, Oct 6 2008 09:59:26) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovlsqh | Luanshi Quanhuang (bootleg of Knights of Valour Super Heroes Plus, ver. 200CN) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovlsqh2 | Luanshi Quanhuang 2 (bootleg of Knights of Valour Super Heroes Plus, ver. 200CN) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovlsjb | Luanshi Jie Ba (bootleg of Knights of Valour Super Heroes Plus, ver. 200CN, set 1) |  |
+| [igs/pgm.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm.cpp) | kovlsjba | Luanshi Jie Ba (bootleg of Knights of Valour Super Heroes Plus, ver. 200CN, set 2) |  |
 | [igs/pgm3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm3.cpp) | kov3hd | Knights of Valour 3 HD (M-105CN 13-07-04 18:54:01) |  |
 | [igs/pgm3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm3.cpp) | kov3hd104 | Knights of Valour 3 HD (V104) |  |
 | [igs/pgm3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igs/pgm3.cpp) | kov3hd103 | Knights of Valour 3 HD (V103) |  |
@@ -318,6 +392,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [igt/splus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igt/splus.cpp) | spset026 | S-Plus SET026 Set chip |  |
 | [igt/splus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igt/splus.cpp) | spss4240 | S-Plus (SS4240) Coral Reef |  |
 | [igt/videopkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/igt/videopkr.cpp) | bpoker | Video Poker (v1403) |  |
+| [irem/m10.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m10.cpp) | ipminvad1 | IPM Invader (set 2) | `incomplete dump` |
 | [irem/m107.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m107.cpp) | wpksoc | World PK Soccer |  |
 | [irem/m107.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m107.cpp) | kftgoal | Kick for the Goal |  |
 | [irem/m119.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m119.cpp) | scumimon | Slotters Club: Umi Monogatari | `Ver PROGRAM 2000/09/14` |
@@ -327,12 +402,27 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [irem/m72.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m72.cpp) | lohtb | Legend of Hero Tonma (Playmark unprotected bootleg) |  |
 | [irem/m72.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m72.cpp) | loht_ms | Legend of Hero Tonma (Gaelco bootleg, Modular System) |  |
 | [irem/m72.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m72.cpp) | hharryb2 | Hammerin' Harry (Playmark bootleg) |  |
+| [irem/m92.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/m92.cpp) | nbbatman2bl | Ninja Baseball Bat Man II (bootleg) | `different sprite system, MCU as soundcpu, OKI samples for music/sound` |
 | [irem/redalert.cpp](https://github.com/mamedev/mame/blob/master/src/mame/irem/redalert.cpp) | demoneye | Demoneye-X |  |
 | [itech/itech8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/itech/itech8.cpp) | stratabs | Strata Bowling (V1 4T, Super Strike Bowling type PCB) | `need to figure out the control hookup for this set, service mode indicates it's still a trackball like stratab` |
 | [jaleco/acommand.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/acommand.cpp) | acommand | Alien Command |  |
 | [jaleco/armchamp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/armchamp.cpp) | armchamp | Arm Champs (Japan) |  |
 | [jaleco/blueprnt.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/blueprnt.cpp) | unkzilec | unknown Zilec game on Blue Print hardware | `only GFX ROMs are dumped` |
+| [jaleco/cischeat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/cischeat.cpp) | armchmp2 | Arm Champs II (ver 2.7) |  |
+| [jaleco/cischeat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/cischeat.cpp) | armchmp2o2 | Arm Champs II (ver 2.6) |  |
+| [jaleco/cischeat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/cischeat.cpp) | armchmp2o | Arm Champs II (ver 1.7) |  |
+| [jaleco/cischeat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/cischeat.cpp) | wildplt | Wild Pilot | `busted timings` |
 | [jaleco/ms32.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/ms32.cpp) | f1superb | F-1 Super Battle |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | nndmseal | Nandemo Seal Iinkai (ver 1.3) |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | nndmseal11 | Nandemo Seal Iinkai (ver 1.1) |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | nndmseala | Nandemo Seal Iinkai (Astro Boy ver. 1.0?) | `version guessed` |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | nndmsealb | Nandemo Seal Iinkai (Astro Boy ver. 1.1) | `appears to have one more mode than the one above, ver taken from PRG ROM labels` |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | nndmsealc | Nandemo Seal Iinkai (alternate ver 1.0) | `only shows Jaleco copyright even though I'Max is in strings in ROMs. Ver taken from PRG ROM labels` |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | vjslap | VJ: Visual & Music Slap |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | vjdash | VJ Dash (ver 1.0) |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | vjdasha | VJ Dash (Ver 1.2) |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | stepstag | Stepping Stage Special |  |
+| [jaleco/tetrisp2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jaleco/tetrisp2.cpp) | step3 | Stepping 3 Superior |  |
 | [jpm/guab.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jpm/guab.cpp) | crisscrs | Criss Cross (Sweden) |  |
 | [jpm/jpmimpct.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jpm/jpmimpct.cpp) | snlad | Snake & Ladders | `incomplete` |
 | [jpm/jpmimpct.cpp](https://github.com/mamedev/mame/blob/master/src/mame/jpm/jpmimpct.cpp) | buzzundr | Buzzundrum (Ace) |  |
@@ -361,6 +451,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [konami/combatsc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/combatsc.cpp) | bootcampa | Boot Camp (set 2) |  |
 | [konami/cougar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/cougar.cpp) | spinfev | Spin Fever | `'GPB-JB-F01 2008-04-17' and 'SPIN FEVER (GSGPB)  BOOT SCRIPT' strings in HDD` |
 | [konami/dbz.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/dbz.cpp) | dbz2bl | Dragon Ball Z 2 - Super Battle (bootleg) | `heavy priority / GFX issues, no sound` |
+| [konami/gberet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/gberet.cpp) | gberetb | Green Beret (bootleg) | `needs correct PROM decoding` |
 | [konami/giclassic.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/giclassic.cpp) | giclasex | GI-Classic EX (satellite terminal) |  |
 | [konami/giclassic.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/giclassic.cpp) | giclassvr | GI-Classic EX (server) |  |
 | [konami/goldenregion.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/goldenregion.cpp) | glregion | Golden Region |  |
@@ -380,14 +471,69 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | thrilldgke | Thrill Drive (ver GK713EAB) |  |
 | [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | thrilldgkee | Thrill Drive (ver GK713EEB) |  |
 | [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | thrilldgkk | Thrill Drive (ver GK713K*B) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope | Silent Scope (ver UAD, Ver 1.33) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopee | Silent Scope (ver EAD, Ver 1.33) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopea | Silent Scope (ver AAD, Ver 1.33) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeuc | Silent Scope (ver UAC, Ver 1.30) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeec | Silent Scope (ver EAC, Ver 1.30) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeac | Silent Scope (ver AAC, Ver 1.30) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeub | Silent Scope (ver UAB, Ver 1.20) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeeb | Silent Scope (ver EAB, Ver 1.20) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeab | Silent Scope (ver AAB, Ver 1.20) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopejb | Silent Scope (ver JAB, Ver 1.20) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeua | Silent Scope (ver UAA, Ver 1.00) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeea | Silent Scope (ver EAA, Ver 1.00) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeaa | Silent Scope (ver AAA, Ver 1.00) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeja | Silent Scope (ver JAA, Ver 1.00) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopevd2 | Silent Scope (ver UAD, Ver 1.33, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeevd2 | Silent Scope (ver EAD, Ver 1.33, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeavd2 | Silent Scope (ver AAD, Ver 1.33, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeucvd2 | Silent Scope (ver UAC, Ver 1.30, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeecvd2 | Silent Scope (ver EAC, Ver 1.30, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscopeacvd2 | Silent Scope (ver AAC, Ver 1.30, GQ871 Voodoo 2 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2 | Silent Scope 2 : Dark Silhouette (ver UAD, Ver 1.03) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2e | Silent Scope 2 : Fatal Judgement (ver EAD, Ver 1.03) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2j | Silent Scope 2 : Innocent Sweeper (ver JAD, Ver 1.03) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2a | Silent Scope 2 : Innocent Sweeper (ver AAD, Ver 1.03) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2uc | Silent Scope 2 : Dark Silhouette (ver UAC, Ver 1.02) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ec | Silent Scope 2 : Fatal Judgement (ver EAC, Ver 1.02) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2jc | Silent Scope 2 : Innocent Sweeper (ver JAC, Ver 1.02) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ac | Silent Scope 2 : Innocent Sweeper (ver AAC, Ver 1.02) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ub | Silent Scope 2 : Dark Silhouette (ver UAB, Ver 1.01) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2eb | Silent Scope 2 : Fatal Judgement (ver EAB, Ver 1.01) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2jb | Silent Scope 2 : Innocent Sweeper (ver JAB, Ver 1.01) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ab | Silent Scope 2 : Innocent Sweeper (ver AAB, Ver 1.01) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2vd1 | Silent Scope 2 : Dark Silhouette (ver UAD, Ver 1.03, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2evd1 | Silent Scope 2 : Fatal Judgement (ver EAD, Ver 1.03, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2jvd1 | Silent Scope 2 : Innocent Sweeper (ver JAD, Ver 1.03, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2avd1 | Silent Scope 2 : Innocent Sweeper (ver AAD, Ver 1.03, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ucvd1 | Silent Scope 2 : Dark Silhouette (ver UAC, Ver 1.02, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ecvd1 | Silent Scope 2 : Fatal Judgement (ver EAC, Ver 1.02, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2jcvd1 | Silent Scope 2 : Innocent Sweeper (ver JAC, Ver 1.02, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2acvd1 | Silent Scope 2 : Innocent Sweeper (ver AAC, Ver 1.02, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ubvd1 | Silent Scope 2 : Dark Silhouette (ver UAB, Ver 1.01, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2ebvd1 | Silent Scope 2 : Fatal Judgement (ver EAB, Ver 1.01, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2jbvd1 | Silent Scope 2 : Innocent Sweeper (ver JAB, Ver 1.01, GN715 Voodoo 1 video board) |  |
+| [konami/hornet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/hornet.cpp) | sscope2abvd1 | Silent Scope 2 : Innocent Sweeper (ver AAB, Ver 1.01, GN715 Voodoo 1 video board) |  |
 | [konami/ironhors.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ironhors.cpp) | farwest | Far West |  |
 | [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | btchamp | Beat the Champ (GV053 UAA01) |  |
 | [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | kdeadeye | Dead Eye (GV054 UAA01) |  |
+| [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | tmosh | Tokimeki Memorial Oshiete Your Heart (GQ673 JAA) |  |
+| [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | tmoshs | Tokimeki Memorial Oshiete Your Heart Seal Version (GE755 JAA) |  |
+| [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | tmoshsp | Tokimeki Memorial Oshiete Your Heart Seal Version Plus (GE756 JAB) |  |
+| [konami/konamigv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigv.cpp) | tmoshspa | Tokimeki Memorial Oshiete Your Heart Seal Version Plus (GE756 JAA) |  |
+| [konami/konamigx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigx.cpp) | racinfrc | Racin' Force (ver EAC) |  |
+| [konami/konamigx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigx.cpp) | racinfrcu | Racin' Force (ver UAB) |  |
+| [konami/konamigx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigx.cpp) | opengolf | Konami's Open Golf Championship (ver EAE) |  |
+| [konami/konamigx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigx.cpp) | opengolf2 | Konami's Open Golf Championship (ver EAD) |  |
+| [konami/konamigx.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamigx.cpp) | ggreats2 | Golfing Greats 2 (ver JAC) |  |
 | [konami/konamim2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamim2.cpp) | totlvicj | Total Vice (ver JAD) |  |
 | [konami/konamim2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamim2.cpp) | totlvica | Total Vice (ver AAB) |  |
 | [konami/konamim2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamim2.cpp) | totlvicu | Total Vice (ver UAC) |  |
 | [konami/konamim2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamim2.cpp) | btltryst | Battle Tryst (ver JAC) |  |
 | [konami/konamim2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konamim2.cpp) | heatof11 | Heat of Eleven '98 (ver EAA) |  |
+| [konami/konblands.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konblands.cpp) | kbadlands | Badlands (Konami, set 1) |  |
+| [konami/konblands.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konblands.cpp) | kbadlandsh | Badlands (Konami, set 2) |  |
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | konendev | Konami Endeavour BIOS |  |
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | amazonsp | Amazon Spirit (Konami Endeavour, NSW) |  |
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | enchlamp | Enchanted Lamp (Konami Endeavour, Russia) |  |
@@ -409,6 +555,8 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | sultanw | Sultan's Wish (Konami Endeavour, Russia) |  |
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | whiterus | White Russia (Konami Endeavour, Russia) |  |
 | [konami/konendev.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konendev.cpp) | konzero | Zero (Konami Endeavour) |  |
+| [konami/konmedal.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konmedal.cpp) | tsururin | Tsururin Kun | `resets after start up test. Seems to be an IRQ problem` |
+| [konami/konmedal.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konmedal.cpp) | slimekun | Slime Kun |  |
 | [konami/konmedal020.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konmedal020.cpp) | gs471 | unknown medal game GS471 |  |
 | [konami/konmedal68k.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konmedal68k.cpp) | dobouchn | Dobou-Chan (ver JAA) |  |
 | [konami/konmedal68k.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/konmedal68k.cpp) | unkkonmd | unknown Konami medal game (game code GS662) |  |
@@ -463,8 +611,96 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [konami/kpython2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/kpython2.cpp) | thrild3j | Thrill Drive 3 (D44:J:A:A:20050316) |  |
 | [konami/kpython2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/kpython2.cpp) | toysmarch | Toy's March (E00:J:A:A:2005011602) |  |
 | [konami/kpython2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/kpython2.cpp) | toysmarch2 | Toy's March 2 (F00:J:A:A:2005110400) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrja | Dance Dance Revolution (GC845 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrjb | Dance Dance Revolution (GC845 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrkara | Dance Dance Revolution Karaoke Mix (GQ921 VER. JBB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk | Percussion Freaks (GQ881 VER. EAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrka | Percussion Freaks (GQ881 VER. AAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrkk | Percussion Freaks (GQ881 VER. KAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmnu | DrumMania (GQ881 VER. UAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn | DrumMania (GQ881 VER. JAD) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmna | DrumMania (GQ881 VER. JAD ALT CD) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr3mk | Dance Dance Revolution 3rd Mix - Ver.Korea2 (GN887 VER. KBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr3mka | Dance Dance Revolution 3rd Mix - Ver.Korea (GN887 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr3ma | Dance Dance Revolution 3rd Mix (GN887 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr3mj | Dance Dance Revolution 3rd Mix (GN887 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrsbm | Dance Dance Revolution Solo Bass Mix (GQ894 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrs2k | Dance Dance Revolution Solo 2000 (GC905 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrs2kj | Dance Dance Revolution Solo 2000 (GC905 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dsfdct | Dancing Stage featuring Dreams Come True (GC910 VER. JCA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk2m | Percussion Freaks 2nd Mix (GE912 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk2mk | Percussion Freaks 2nd Mix (GE912 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn2m | DrumMania 2nd Mix (GE912 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn2mpu | DrumMania 2nd Mix Session Power Up Kit (GE912 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dncfrks | Dance Freaks (G*874 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dmx | Dance Maniax (G*874 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dmxa | Dance Maniax (G*874 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gunmania | GunMania (GL906 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | fghtmn | Fighting Mania (QG918 VER. EAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | fghtmna | Fighting Mania (QG918 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pnchmn | Punch Mania: Hokuto no Ken (GQ918 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pnchmna | Punch Mania: Hokuto no Ken (GQ918 VER. JAB ALT CD) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | fghtmnk | Fighting Mania (QG918 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | fghtmnu | Fighting Mania (QG918 VER. UAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dsem | Dancing Stage Euro Mix (G*936 VER. EAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrkara2 | Dance Dance Revolution Karaoke Mix 2 (GQ947 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk3m | Guitar Freaks 3rd Mix (GE949 VER. JAC) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtfrk3ma | Guitar Freaks 3rd Mix (GE949 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtfrk3mb | Guitar Freaks 3rd Mix - security cassette versionup (949JAZ02) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pnchmn2 | Punch Mania 2: Hokuto no Ken (GQA09 JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr3mp | Dance Dance Revolution 3rd Mix Plus (G*A22 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk3m | Percussion Freaks 3rd Mix (G*A23 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk3mk | Percussion Freaks 3rd Mix (G*A23 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn3m | DrumMania 3rd Mix (G*A23 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk4m | Guitar Freaks 4th Mix (G*A24 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4m | Dance Dance Revolution 4th Mix (G*A33 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4mj | Dance Dance Revolution 4th Mix (G*A33 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4ms | Dance Dance Revolution 4th Mix Solo (G*A33 VER. ABA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4msj | Dance Dance Revolution 4th Mix Solo (G*A33 VER. JBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dsfdr | Dancing Stage Featuring Disney's Rave (GCA37JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrusa | Dance Dance Revolution USA (G*A44 VER. UAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4mp | Dance Dance Revolution 4th Mix Plus (G*A34 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr4mps | Dance Dance Revolution 4th Mix Plus Solo (G*A34 VER. JBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dmx2m | Dance Maniax 2nd Mix (G*A39 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk4m | Percussion Freaks 4th Mix (G*A25 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn4m | DrumMania 4th Mix (G*A25 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk5m | Guitar Freaks 5th Mix (G*A26 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk5ma | Guitar Freaks 5th Mix (G*A26 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddr5m | Dance Dance Revolution 5th Mix (G*A27 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dmx2majp | Dance Maniax 2nd Mix Append J-Paradise (G*A38 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | mamboagg | Mambo A Go-Go (GQA40 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | mamboagga | Mambo A Go-Go (GQA40 VER. JRB, Rental) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk5m | Percussion Freaks 5th Mix (G*B05 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk5mk | Percussion Freaks 5th Mix (G*B05 VER. KAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn5m | DrumMania 5th Mix (G*B05 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk6m | Guitar Freaks 6th Mix (G*B06 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk6m | Percussion Freaks 6th Mix (G*B16 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn6m | DrumMania 6th Mix (G*B16 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk7m | Guitar Freaks 7th Mix (G*B17 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrmax | DDRMAX - Dance Dance Revolution 6th Mix (G*B19 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrmax2 | DDRMAX2 - Dance Dance Revolution 7th Mix (G*B20 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | mrtlbeat | Martial Beat (G*B47 VER. JBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn7m | DrumMania 7th Mix power-up ver. (G*C07 VER. JBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn7ma | DrumMania 7th Mix (G*C07 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk8m | Guitar Freaks 8th Mix power-up ver. (G*C08 VER. JBA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk8ma | Guitar Freaks 8th Mix (G*C08 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | dsem2 | Dancing Stage Euro Mix 2 (G*C23 VER. EAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | ddrextrm | Dance Dance Revolution Extreme (G*C36 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn8m | DrumMania 8th Mix (G*C38 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtrfrk9m | Guitar Freaks 9th Mix (G*C39 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk9m | Percussion Freaks 9th Mix (G*D09 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn9m | DrumMania 9th Mix (G*D09 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn9ma | DrumMania 9th Mix (G*D09 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtfrk10m | Guitar Freaks 10th Mix (G*D10 VER. JAB) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtfrk10ma | Guitar Freaks 10th Mix (G*D10 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | gtfrk11m | Guitar Freaks 11th Mix (G*D39 VER. JAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | pcnfrk10m | Percussion Freaks 10th Mix (G*D40 VER. AAA) |  |
+| [konami/ksys573.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/ksys573.cpp) | drmn10m | DrumMania 10th Mix (G*D40 VER. JAA) |  |
 | [konami/moo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/moo.cpp) | moomesabl | Wild West C.O.W.-Boys of Moo Mesa (bootleg) | `based on Version AA` |
 | [konami/otomedius.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/otomedius.cpp) | otomedius | Otomedius (ver GGG:J:A:A:2008041801) |  |
+| [konami/overdriv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/overdriv.cpp) | overdriv | Over Drive (set 1) | `US version` |
+| [konami/overdriv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/overdriv.cpp) | overdriva | Over Drive (set 2) | `Overseas?` |
+| [konami/overdriv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/overdriv.cpp) | overdrivb | Over Drive (set 3) | `Overseas?` |
 | [konami/quickpick5.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/quickpick5.cpp) | waijockey | Wai Wai Jockey | `works but not playable due to bad gfx` |
 | [konami/stingnet.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/stingnet.cpp) | tropchnc | Tropical Chance |  |
 | [konami/tasman.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tasman.cpp) | kingtut | King Tut (NSW, Australia) |  |
@@ -474,8 +710,15 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [konami/tasman.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tasman.cpp) | vikingt | Viking Treasure |  |
 | [konami/tasman.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tasman.cpp) | thequest | The Quest (NSW, Australia) |  |
 | [konami/tasman.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tasman.cpp) | horses4c | Horses For Courses (NSW, Australia) |  |
+| [konami/tmnt2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tmnt2.cpp) | glfgreat | Golfing Greats (World, version L) |  |
+| [konami/tmnt2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tmnt2.cpp) | glfgreatu | Golfing Greats (US, version K) |  |
+| [konami/tmnt2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tmnt2.cpp) | glfgreatj | Golfing Greats (Japan, version J) |  |
 | [konami/tmnt2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tmnt2.cpp) | ssridersb | Sunset Riders (bootleg 4 Players ver ADD) |  |
 | [konami/tmnt2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/tmnt2.cpp) | ssriders2 | Sunset Riders 2 (bootleg 4 Players ver ADD) |  |
+| [konami/twinkle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/twinkle.cpp) | bmiidx | beatmania IIDX (863 JAB) |  |
+| [konami/twinkle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/twinkle.cpp) | bmiidxa | beatmania IIDX (863 JAA) |  |
+| [konami/twinkle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/twinkle.cpp) | bmiidxc | beatmania IIDX with DDR 2nd Club Version (896 JAB) |  |
+| [konami/twinkle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/twinkle.cpp) | bmiidxca | beatmania IIDX with DDR 2nd Club Version (896 JAA) |  |
 | [konami/viper.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/viper.cpp) | ppp2nd | ParaParaParadise 2nd Mix (JAA) |  |
 | [konami/viper.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/viper.cpp) | ppp2nda | ParaParaParadise 2nd Mix (AAA) |  |
 | [konami/viper.cpp](https://github.com/mamedev/mame/blob/master/src/mame/konami/viper.cpp) | boxingm | Boxing Mania: Ashita no Joe (ver JAA) |  |
@@ -534,6 +777,10 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [meadows/meadwttl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/meadows/meadwttl.cpp) | cgunship | Cobra Gunship [TTL] |  |
 | [meadows/meadwttl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/meadows/meadwttl.cpp) | mead4in1 | Meadows 4 in 1 [TTL] |  |
 | [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | mosdraw | Montana Super Draw (4436-05, U5-0) | `needs printer and RTC hook up` |
+| [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | dodgectya | Dodge City (2131-82, U5-0D) | `no text shown, while cards are` |
+| [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | dodgectyb | Dodge City (2131-82, U5-50) | `"` |
+| [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | dodgectyc | Dodge City (2131-82, U5-0 GT) | `"` |
+| [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | unkmerit | unknown Merit game (4435-81, U5-1) | `CRT-209 module not dumped - no text shown, while cards are` |
 | [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | matchem | Match'em Up (6221-51, U5-1) | `in some levels the tiles' GFX are jumbled` |
 | [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | matchemg | Match'em Up (6221-55, U5-1 German) | `"` |
 | [merit/merit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/merit/merit.cpp) | couple | The Couples (set 1) | `"` |
@@ -549,6 +796,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [metro/metro.cpp](https://github.com/mamedev/mame/blob/master/src/mame/metro/metro.cpp) | poittoc | Poitto! (revision C) | `missing 1 program ROM` |
 | [metro/metro.cpp](https://github.com/mamedev/mame/blob/master/src/mame/metro/metro.cpp) | puzzlet | Puzzlet (Japan) |  |
 | [metro/metro.cpp](https://github.com/mamedev/mame/blob/master/src/mame/metro/metro.cpp) | metabee | Metabee Shot | `Hopper problem` |
+| [midcoin/24cdjuke.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midcoin/24cdjuke.cpp) | 24cdjuke | Midcoin Juke Box 24CD | `what name was it sold under? name is from the PCB text` |
 | [midw8080/8080bw.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midw8080/8080bw.cpp) | sisv1 | Space Invaders (SV Version rev 1) |  |
 | [midw8080/8080bw.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midw8080/8080bw.cpp) | invasionrza | Invasion (bootleg set 2, R Z SRL Bologna) |  |
 | [midway/astrocde.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/astrocde.cpp) | tenpindx | Ten Pin Deluxe |  |
@@ -566,6 +814,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [midway/midqslvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midqslvr.cpp) | arctthnd | Arctic Thunder (v1.002) |  |
 | [midway/midqslvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midqslvr.cpp) | ultarctc | Ultimate Arctic Thunder |  |
 | [midway/midqslvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midqslvr.cpp) | ultarctcup | Ultimate Arctic Thunder Update CD ver 1.950 (5/3/04) |  |
+| [midway/midyunit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midyunit.cpp) | mkrep | Mortal Kombat (Reptile Man hack) |  |
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | crusnexo | Cruis'n Exotica (version 2.4) |  |
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | crusnexoa | Cruis'n Exotica (version 2.0) |  |
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | crusnexob | Cruis'n Exotica (version 1.6) |  |
@@ -574,6 +823,9 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | thegrid | The Grid (version 1.2) | `10/16/00` |
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | thegrida | The Grid (version 1.1) | `07/26/00` |
 | [midway/midzeus.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/midzeus.cpp) | thegridb | The Grid (version 1.01) | `07/17/00` |
+| [midway/mw18w.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/mw18w.cpp) | 18w | 18 Wheeler (set 1) |  |
+| [midway/mw18w.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/mw18w.cpp) | 18w2 | 18 Wheeler (set 2) |  |
+| [midway/mwsub.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/mwsub.cpp) | submar | Submarine (Midway) |  |
 | [midway/seattle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/seattle.cpp) | sfrushrkw | San Francisco Rush: The Rock (Wavenet, boot rom L 1.38, GUTS Aug 19 1997 / MAIN Aug 19 1997) |  |
 | [midway/seattle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/seattle.cpp) | sfrushrkwo | San Francisco Rush: The Rock (Wavenet, boot rom L 1.38, GUTS Aug 6 1997 / MAIN Aug 5 1997) |  |
 | [midway/spyhuntertec.cpp](https://github.com/mamedev/mame/blob/master/src/mame/midway/spyhuntertec.cpp) | spyhuntpr | Spy Hunter (Spain, Recreativos Franco S.A., Tecfri PCB) |  |
@@ -614,6 +866,18 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/a1supply.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/a1supply.cpp) | tvpoker | T.V. Poker |  |
 | [misc/acefruit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/acefruit.cpp) | starspnr | Starspinner (Dutch/Nederlands) |  |
 | [misc/acefruit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/acefruit.cpp) | acefruit | Silhouette | `inputs and video in bonus game need fixing on this one` |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | suprstar | Super Stars |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg24 | Multi Game I (V.Ger 2.4) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg24a | Multi Game I (V.Stm 2.7) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg3 | Multi Game III (V.Ger 3.5) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg3a | Multi Game III (V.Ger 3.64) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg35i | Multi Game III (S.Ita 3.5) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg34i | Multi Game III (S.Ita 3.4) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg33i | Multi Game III (S.Ita 3.3) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg31i | Multi Game III (S.Ita 3.1) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg4v | Multi Game IV (V.Ger 3.44) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg4sk | Multi Game IV (AMGSK_VA3.85) |  |
+| [misc/amaticmg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amaticmg.cpp) | am_mg5hu | Multi Game V (AMGHU_VB3.65) |  |
 | [misc/amerihok.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amerihok.cpp) | amerihok | Ameri-Hockey |  |
 | [misc/ampoker2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ampoker2.cpp) | ampkr2jsp | American Poker II - Jackpot (Spanish, set 1) |  |
 | [misc/ampoker2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ampoker2.cpp) | ampkr2jspa | American Poker II - Jackpot (Spanish, set 2) |  |
@@ -626,7 +890,20 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/amuzy.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/amuzy.cpp) | shpchamp | Shippe Champion |  |
 | [misc/anes.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/anes.cpp) | sanma | Sanma - San-nin Uchi Mahjong [BET] (Japan, version 2.60) | `flyer says 2000, manual says 2001 version 2.60` |
 | [misc/anes.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/anes.cpp) | tonpuu | Ton Puu Mahjong Version 2.0 RX [BET] (Japan) |  |
+| [misc/arachnid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/arachnid.cpp) | arac6k33 | Super Six Plus II English Mark Darts (v3.3) | `6300T v3.3` |
+| [misc/arachnid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/arachnid.cpp) | arac6k27 | Super Six Plus II English Mark Darts (v2.7) | `6300 v2.7` |
+| [misc/arachnid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/arachnid.cpp) | arac6k28sp | Super Six Plus II English Mark Darts (v2.8, Spanish) | `6307 v2.8` |
 | [misc/artmagic.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/artmagic.cpp) | shtstar | Shooting Star |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibomba | Magic Bomb (Ver. BR4.4, 04/19/02S) | `One bad program ROM` |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombb | Magic Bomb (Ver. AB4.5A, 07/10/02S) |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombc | Magic Bomb (Ver. AB4.2, 11/10/01) |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombf | Magic Bomb (Ver. NB4.5, 06/14/02S) |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombh | Magic Bomb (Ver. A4.0A) |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombi | Magic Bomb (Ver. A3.6A) |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | gostopac | Go & Stop |  |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombd | Magic Bomb (Ver. AA.72.D, 14/11/05) | `15/11/05 09:31. Undumped sprite ROM` |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | magibombg | Magic Bomb (Ver. NB6.1, 26/04/04) | `26/04/04. Undumped sprite ROM` |
+| [misc/astrcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astrcorp.cpp) | winbingoa | Win Win Bingo (Ver. GM.05.1, May 11 2006) | `11:02:07 May 11 2006. Undumped sprite ROMs` |
 | [misc/astropc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astropc.cpp) | blackbd | Black Beard (Russia, set 1) |  |
 | [misc/astropc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astropc.cpp) | blackbda | Black Beard (Russia, set 2) |  |
 | [misc/astropc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/astropc.cpp) | blackbdb | Black Beard (Russia, set 3) |  |
@@ -737,7 +1014,16 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/changyu.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/changyu.cpp) | changyu2 | unknown Chang Yu Electronic gambling game 2 | `Wing Co. in GFX1` |
 | [misc/chicago.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/chicago.cpp) | dmodrbcc | Demolition Derby [TTL] |  |
 | [misc/chsuper.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/chsuper.cpp) | losttrea | Lost Treasure (V1.03) | `04/05/01, there's also a Lost Island string` |
+| [misc/coinmstr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmstr.cpp) | trailblz | Trail Blazer | `or Trail Blazer 2 ?` |
+| [misc/coinmstr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmstr.cpp) | supnudg2 | Super Nudger II - P173 (Version 5.21) |  |
 | [misc/coinmstr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmstr.cpp) | pokeroul | Poker Roulette (Version 8.22) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | colorama | Colorama (P521, English) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | coloramas | Colorama (P521 V13, Spanish) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | wof_v16 | Wheel of Fortune (P517 V16, English) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | wof_v11 | Wheel of Fortune (P517 V11, English) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | cmrltv75 | Coinmaster Roulette P497 V75 (Y2K, Spanish) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | cmkenosp | Coinmaster Keno (Y2K, Spanish, 2000-12-14) |  |
+| [misc/coinmvga.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/coinmvga.cpp) | cmkenospa | Coinmaster Keno (Y2K, Spanish, 2000-12-02) |  |
 | [misc/cointek.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/cointek.cpp) | unkct | unknown Cointek game | `string in ROM at 0x7839: Ver 4.00 1989-08-01` |
 | [misc/comebaby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/comebaby.cpp) | comebaby | Come On Baby |  |
 | [misc/cowtipping.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/cowtipping.cpp) | cowtipp | Cow Tipping - Shake Cattle & Roll (set 1) |  |
@@ -763,6 +1049,10 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/dgpix.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dgpix.cpp) | letsdnce | Let's Dance |  |
 | [misc/dgpix.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dgpix.cpp) | btplay2k | Beat Player 2000 |  |
 | [misc/drdmania.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/drdmania.cpp) | drdmania | Dardomania (v2.1) |  |
+| [misc/dwarfd.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dwarfd.cpp) | quarterh | Quarter Horse (set 1, Pioneer PR-8210) |  |
+| [misc/dwarfd.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dwarfd.cpp) | quarterha | Quarter Horse (set 2, Pioneer PR-8210) |  |
+| [misc/dwarfd.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dwarfd.cpp) | quarterhb | Quarter Horse (set 3, Pioneer LD-V2000) |  |
+| [misc/dwarfd.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/dwarfd.cpp) | qc | Quarter Horse Classic |  |
 | [misc/ecoinf2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ecoinf2.cpp) | ec_oxocg | Oxo Classic Gold (Electrocoin) (?) |  |
 | [misc/ecoinf2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ecoinf2.cpp) | ec_oxocl | Oxo Club (Electrocoin) (?) |  |
 | [misc/ecoinf2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ecoinf2.cpp) | ec_oxogb | Oxo Golden Bars (Electrocoin) (?) |  |
@@ -854,6 +1144,15 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/globalvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/globalvr.cpp) | nfs | Need for Speed - 4 Cab Link (2 Discs) (v1.0.1 Rev B) |  |
 | [misc/globalvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/globalvr.cpp) | nfsgt | Need for Speed GT (Hard Drive+2 Discs) (v1.1.0 Rev C) |  |
 | [misc/globalvr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/globalvr.cpp) | nfsug | Need For Speed: Underground Install (2 Discs) (v1.1) |  |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | rbmk | Shizhan Majiang Wang (Version 8.8) | `misses YM2151 hookup, Oki hookup may be imperfect` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | rbspm | Shizhan Ding Huang Maque (Version 4.1) | `stops during boot, patched for now` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | super555 | Super 555 (English version V1.5) | `stops during boot, patched for now` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | sc2in1 | Super Card 2 in 1 (English version 03.23) | `stops during boot, patched for now` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | magslot | Magic Slot (normal 1.0C) | `needs implementing of 3rd GFX layer, correct GFX decode for 1st layer, inputs` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | ballch | Ball Challenge (20020607 1.0 OVERSEA) | `stops during boot, patched for now` |
+| [misc/gms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/gms.cpp) | cots | Creatures of the Sea (20050328 USA 6.3) | `stops during boot, patched for now` |
+| [misc/goldngam.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/goldngam.cpp) | swisspkr | Swiss Poker ('50 SG-.10', V2.5) |  |
+| [misc/goldngam.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/goldngam.cpp) | moviecrd | Movie Card |  |
 | [misc/goldnpkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/goldnpkr.cpp) | goldnpkd | Golden Poker Double Up (bootleg, set 2) | `always get a winning flush` |
 | [misc/goldnpkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/goldnpkr.cpp) | falcnwldc | Falcons Wild - World Wide Poker (Falcon original) | `MCU hook up incomplete, currently game runs only after a soft reset. Then you can coin up but bet doesn't work` |
 | [misc/goldnpkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/goldnpkr.cpp) | witchgmea | Witch Game (Video Klein, set 2) |  |
@@ -930,6 +1229,8 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/itgamble.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/itgamble.cpp) | mnumber | Mystery Number |  |
 | [misc/jackpool.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/jackpool.cpp) | jackpool | Jackpot Cards / Jackpot Pool (Italy) |  |
 | [misc/jackpot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/jackpot.cpp) | jackpot | Jackpot Bowling (Ver 16.16L) | `08.09.98` |
+| [misc/jackpot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/jackpot.cpp) | jackpota | Jackpot Bowling (Ver 1.16L) | `01.09.98 title mispelled as "Jackpot Bowlinng" on initial full screen title, otherwise correct during attract` |
+| [misc/jokrwild.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/jokrwild.cpp) | jokrwild | Joker's Wild (encrypted) |  |
 | [misc/joystand.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/joystand.cpp) | joystand | Joy Stand Private |  |
 | [misc/joystand.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/joystand.cpp) | x180ii | unknown Yuvo Joy Stand game | `has Joy Stand sample in Oki ROMs` |
 | [misc/jungleyo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/jungleyo.cpp) | jungleyo | Jungle (Italy VI3.02) |  |
@@ -946,6 +1247,24 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/magic10.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magic10.cpp) | mcolorsa | Magic Colors (ver. 1.6) |  |
 | [misc/magic10.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magic10.cpp) | lunaprk | Luna Park (ver. 1.2) |  |
 | [misc/magic10.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magic10.cpp) | altaten | Alta Tensione (ver. 2.01a) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicard | Magic Card (v2.01) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrd1a | Magic Card (v1.5 17.12.93, set 1) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrd1b | Magic Card (v1.5 17.12.93, set 2) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrd1d | Magic Card (v1.2 200/93, set 2) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrde | Magic Card Export 94 (v2.11a, set 1) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrdea | Magic Card Export 94 (v2.11a, set 2) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrdec | Magic Card Export 94 (v2.09a) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrdj | Magic Card III Jackpot (V4.01 6/98) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicrdja | Magic Card III Jackpot (V4.01 7/98) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | magicle | Magic Lotto Export (5.03) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | hotslots | Hot Slots (6.00) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | quingo | Quingo Export (5.00) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | belslots | Bel Slots Export (5.01) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | bigdeal0 | Big Deal Belgien (5.04) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | dallaspk | Dallas Poker |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | kajotcrd | Kajot Card (Version 1.01, Wien Euro) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | lucky7x | Lucky 7 (Impera, V04/91a, set 2) |  |
+| [misc/magicard.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magicard.cpp) | jjokeri | Jolly Joker? (Impera, V11/90b) |  |
 | [misc/magictg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magictg.cpp) | magictg | Magic the Gathering: Armageddon (set 1) |  |
 | [misc/magictg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magictg.cpp) | magictga | Magic the Gathering: Armageddon (set 2) |  |
 | [misc/magreel.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/magreel.cpp) | magreel | Magic Reels |  |
@@ -978,8 +1297,25 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/multfish_boot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/multfish_boot.cpp) | igromult | Igrosoft Multigame Bootleg (10 Games) | `no GFX roms` |
 | [misc/multfish_boot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/multfish_boot.cpp) | igromula | Igrosoft Multigame Bootleg (15 Games) | `no GFX roms` |
 | [misc/neomania.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neomania.cpp) | neomania | Neo Mania (Portugal) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | neoprint | Neo Print (Japan) (T2d) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npcartv1 | Neo Print V1 (World) (E1a) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npscv1 | Neo Print - Senyou Cassette Ver. 1 (Japan) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npcramen | Neo Print - Chicken Ramen (Japan) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npsprgv4 | Neo Print - Spring Ver. 4 (Japan) (T4f 1.00) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npskv | Neo Print - Suizokukan Version (Japan) (T4i 2.00) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npotogib | Neo Print - Otogibanashi (Japan) (T4i 3.00) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | nppopeye | Neo Print - Popeye (Japan) (T4i 3.04) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npeurver | Neo Print - European Version (World) (T4i 2.00) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npusagif | Neo Print - Usagi Frame (Japan) (T4i 3.07) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | 98best44 | Neo Print - '98 NeoPri Best 44 (Japan) (T4i 3.07) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npsprg98 | Neo Print - Spring '98 (T4i 3.07) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npmillen | Neo Print - Millennium Multi Shot Edition (World) (T4i 3.07) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npfpit | Neo Print - Fuyu Pri Iitoko-dori (Japan) (T4i 3.07) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | nprsp | NeopriSP Retro Collection (Japan) |  |
+| [misc/neoprint.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/neoprint.cpp) | npssr2 | Neo Print Special: Sekai Ryokou 2 (Japan) |  |
 | [misc/nexus3d.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/nexus3d.cpp) | acheart | Arcana Heart |  |
 | [misc/nexus3d.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/nexus3d.cpp) | acheartf | Arcana Heart Full |  |
+| [misc/nibble.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/nibble.cpp) | l9nibble | Lucky 9 |  |
 | [misc/norautp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/norautp.cpp) | norautu | Noraut Poker (NTX10A) |  |
 | [misc/norautp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/norautp.cpp) | noraut3a | Noraut Jacks Plus / Joker Poker (V3.010a) |  |
 | [misc/norautp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/norautp.cpp) | noraut3b | Noraut Jacks Plus / Joker Poker (V3.011a) |  |
@@ -1006,6 +1342,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/norautp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/norautp.cpp) | pkii_dm | unknown poker game PKII/DM |  |
 | [misc/norautp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/norautp.cpp) | unkljfpk | unknown LJF Corporation poker game |  |
 | [misc/notechan.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/notechan.cpp) | notechan | Note Chance |  |
+| [misc/nsmpoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/nsmpoker.cpp) | nsmpoker | NSM Poker (TMS9995) |  |
 | [misc/odyssey.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/odyssey.cpp) | odyssey | Odyssey |  |
 | [misc/oneshot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/oneshot.cpp) | maddonnab | Mad Donna (Tuning, set 2) |  |
 | [misc/piggypas.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/piggypas.cpp) | piggypas | Piggy Pass (version 04.40) |  |
@@ -1022,6 +1359,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/playcenter.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/playcenter.cpp) | plycntrchtrc | PlayCenter Champions Tournament (v9.3, 'Celeron' hardware) |  |
 | [misc/plsonic4.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/plsonic4.cpp) | plsonic4 | Play Sonic 4 |  |
 | [misc/pmc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/pmc.cpp) | unkpmc | unknown PMC game | `might be Aztec Princess` |
+| [misc/pntnpuzl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/pntnpuzl.cpp) | pntnpuzl | Paint 'N Puzzle |  |
 | [misc/poker72.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/poker72.cpp) | poker72 | Poker Monarch (v2.50) |  |
 | [misc/potgoldu.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/potgoldu.cpp) | potgoldu | Pot O' Gold (U.S. Games, v400x?) |  |
 | [misc/potgoldu.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/potgoldu.cpp) | potgoldu580 | Pot O' Gold (U.S. Games, v580F) |  |
@@ -1070,26 +1408,74 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | speedwaya | Speedway (set 2) | `Decryption should be correct (unless ICE dump was bad), but doesn't boot` |
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | miaction | Missing In Action |  |
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | tigerslt | Tiger (slot) |  |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | bdream97 | Hudie Meng 97 |  |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | olymp | Olympus (Z Games, version 10) | `Still has Bordun International 1992 strings` |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | sonikfig | Sonik Fighter (version 02, encrypted) |  |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | spcliner | Space Liner | `game runs but screen is completely black due to palette mishandling` |
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | rolla | unknown 'Rolla' slot machine | `internal CPU ROM not dumped` |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | score5 | Score 5 | `game runs but screen is completely black due to palette mishandling` |
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | superb2k | Super Butterfly 2000 | `encrypted / different CPU type ?` |
+| [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | seadevil | Sea Devil | `GFX ROM loading is wrong, causing severe GFX glitches` |
 | [misc/skylncr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/skylncr.cpp) | blshark | Blue Shark (MDS Hellas) | `protection?` |
 | [misc/smd2144c.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/smd2144c.cpp) | thecastle | The Castle |  |
 | [misc/smd2144c.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/smd2144c.cpp) | therock | The Rock |  |
 | [misc/smsmcorp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/smsmcorp.cpp) | trvhanga | Trivia Hangup (question set 2) | `Version Trivia-2-011586` |
 | [misc/ssingles.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/ssingles.cpp) | atamanot | Computer Quiz Atama no Taisou (Japan) |  |
 | [misc/startouch.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/startouch.cpp) | europl01 | EuroPlay 2001 |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | statriv5se | Triv Five Special Edition | `missing questions' ROMs` |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | quaquiz2 | Quadro Quiz II |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | supertr | Super Triv Quiz I | `missing questions' ROMs` |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | bbchall | Baby Boom Challenge | `wrong satellite board message at startup. Also missing questions' ROMs.` |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | nsupertr3 | New Super Triv III | `new questions don't appear correctly, coinage problems` |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs1_spp | Casino Strip I (Poker version, for Pioneer LD, set 1) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs1_spp2 | Casino Strip I (Poker version, for Pioneer LD, set 2) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs2_sps | Casino Strip II (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs3_qps | Casino Strip III (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs5_spp | Casino Strip V (Poker version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs5_ssp | Casino Strip V (Shooting Game version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs6_sps | Casino Strip VI (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs6_ssp | Casino Strip VI (Shooting Game version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs8_ssp | Casino Strip VIII (Shooting Game version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs8_spp | Casino Strip VIII (Poker version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs8_sps | Casino Strip VIII (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs9_qps | Casino Strip IX (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs9_spp | Casino Strip IX (Poker version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs10_sps | Casino Strip X (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs11_ssp | Casino Strip XI (Shooting Game version, for Pioneer LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs11_sps | Casino Strip XI (Poker version, for Sony LD, set 1) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs11_sps2 | Casino Strip XI (Poker version, for Sony LD, set 2) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cs12_sps | Casino Strip XII (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | cspe_qps | Casino Strip Private Eyes / All Start (Poker version, for Sony LD) |  |
+| [misc/statriv2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/statriv2.cpp) | csv1_qps | Casino Strip Vivid 1 (Poker version, for Sony LD) |  |
 | [misc/stop.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/stop.cpp) | stop | Stop |  |
+| [misc/su2000.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/su2000.cpp) | su2000 | SU2000 |  |
 | [misc/summit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/summit.cpp) | pushover | Push-Over (Summit Coin) |  |
+| [misc/tecnodar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/tecnodar.cpp) | tecnodar | Tecnodarts |  |
+| [misc/tecnodar.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/tecnodar.cpp) | tecnodargr | Tecnodarts (Recreativos G.R. license) |  |
 | [misc/thayers.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/thayers.cpp) | thayers | Thayer's Quest (set 1) |  |
 | [misc/thayers.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/thayers.cpp) | thayersa | Thayer's Quest (set 2) |  |
+| [misc/tmspoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/tmspoker.cpp) | tmspoker | unknown TMS9980 poker game |  |
+| [misc/tmspoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/tmspoker.cpp) | jlasvegas | Las Vegas (Jeutel, set 1) |  |
+| [misc/tmspoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/tmspoker.cpp) | jlasvegasa | Las Vegas (Jeutel, set 2) |  |
+| [misc/trucocl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/trucocl.cpp) | trucocl | Truco Clemente |  |
 | [misc/truesys.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/truesys.cpp) | unkts | unknown game on TrueSys hardware |  |
 | [misc/unkpoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/unkpoker.cpp) | unkpoker | unknown 1980 poker game |  |
 | [misc/unktop.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/unktop.cpp) | unktop | unknown Top game |  |
 | [misc/usbilliards.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/usbilliards.cpp) | sharkusb | Shark [TTL] |  |
 | [misc/v0bowl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/v0bowl.cpp) | v0bowl | unknown VRender0+ bowling game | `Return Bowl?` |
+| [misc/vamphalf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vamphalf.cpp) | worldadv | World Adventure | `game starts to stall for several seconds at a time after it's been running for a certain amount of time` |
+| [misc/vamphalf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vamphalf.cpp) | misncrft | Mission Craft (version 2.7) | `game starts to stall for several seconds at a time after it's been running for a certain amount of time (you can usually complete 1 loop)` |
+| [misc/vamphalf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vamphalf.cpp) | misncrfta | Mission Craft (version 2.4) |  |
+| [misc/vamphalf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vamphalf.cpp) | mrkickera | Mr. Kicker (SEMICOM-003b PCB) | `if you allow EEPROM saving, then this set corrupts the EEPROM and then won't boot` |
 | [misc/vamphalf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vamphalf.cpp) | yorijori | Yori Jori Kuk Kuk | `ROM patch needed to boot` |
 | [misc/vcombat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vcombat.cpp) | vcombat | Virtual Combat |  |
 | [misc/vcombat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vcombat.cpp) | shadfgtr | Shadow Fighters |  |
+| [misc/videosaa.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/videosaa.cpp) | jokrlady | Joker Lady |  |
+| [misc/videosaa.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/videosaa.cpp) | paradar | Paradar |  |
+| [misc/videosaa.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/videosaa.cpp) | winner | Winner |  |
+| [misc/videosaa.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/videosaa.cpp) | scratch | Scratch!! Scratch!! |  |
+| [misc/videosaa.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/videosaa.cpp) | toureiff | Torre Eiffel |  |
+| [misc/vlc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vlc.cpp) | nevada | VLC Nevada |  |
 | [misc/vlc34010.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vlc34010.cpp) | beezerk | Bee-Zerk | `copyright in ROM is VLT instead of VLC, dump came as BeeZerk, but probably a multigame` |
 | [misc/vlc34010.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vlc34010.cpp) | vlcunk | unknown VLC multigame |  |
 | [misc/voyager.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/voyager.cpp) | voyager | Star Trek: Voyager |  |
@@ -1097,6 +1483,8 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/voyager.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/voyager.cpp) | policet2 | Police Trainer 2 |  |
 | [misc/vpoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vpoker.cpp) | vpoker | Videotronics Draw Poker |  |
 | [misc/vpoker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/vpoker.cpp) | 5acespkr | 5-Aces Poker |  |
+| [misc/wildpkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/wildpkr.cpp) | wildpkr | Wild Poker (ver. D 1.01) |  |
+| [misc/wildpkr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/wildpkr.cpp) | tabpkr | Royal Poker V 1.85 |  |
 | [misc/winbingo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/winbingo.cpp) | wbingo06 | Win Bingo 2006 |  |
 | [misc/wms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/wms.cpp) | wms | WMS SetUp/Clear Chips (set 1) |  |
 | [misc/wms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/wms.cpp) | wmsa | WMS SetUp/Clear Chips (set 2) |  |
@@ -1131,13 +1519,17 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [misc/xtom3d.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/xtom3d.cpp) | xtom3d | X Tom 3D |  |
 | [misc/xtom3d.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/xtom3d.cpp) | pumpitup | Pump It Up BIOS |  |
 | [misc/xtom3d.cpp](https://github.com/mamedev/mame/blob/master/src/mame/misc/xtom3d.cpp) | pumpit1 | Pump It Up: The 1st Dance Floor |  |
+| [mr/sshot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/mr/sshot.cpp) | gunchamps | Gun Champ (newer, Super Shot hardware) |  |
 | [mr/subhuntr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/mr/subhuntr.cpp) | subhuntr | Sub Hunter (Model Racing) |  |
+| [namco/20pacgal.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/20pacgal.cpp) | 25pacman | Pac-Man - 25th Anniversary Edition (Rev 3.00) |  |
+| [namco/cswat.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/cswat.cpp) | cswat | Cosmoswat |  |
 | [namco/dkmb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/dkmb.cpp) | dkmb | Donkey Kong / Donkey Kong Jr / Mario Bros |  |
 | [namco/gal3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/gal3.cpp) | gal3 | Galaxian 3 - Theater 6 : Project Dragoon |  |
 | [namco/namcona1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcona1.cpp) | zelos | Zelos (Japan, main unit) | `waits for communication with the terminals` |
 | [namco/namcona1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcona1.cpp) | zelost | Zelos (Japan, terminal) | `no way to insert medal. Maybe needs communication with main unit?` |
 | [namco/namcona1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcona1.cpp) | bbbingo | Bin Bin Bingo (Japan, main unit) | `waits for communication with the terminals` |
 | [namco/namcona1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcona1.cpp) | bbbingot | Bin Bin Bingo (Japan, terminal) | `waits for communication with the main unit` |
+| [namco/namcond1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcond1.cpp) | gynotai | Gynotai (Japan) | `1.04` |
 | [namco/namcops2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcops2.cpp) | sys246 | System 246 BIOS |  |
 | [namco/namcops2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcops2.cpp) | rrvac | Ridge Racer V Arcade Battle (RRV3 Ver. A) |  |
 | [namco/namcops2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcops2.cpp) | rrvac2 | Ridge Racer V Arcade Battle (RRV2 Ver. A) |  |
@@ -1224,15 +1616,22 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [namco/namcos12.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos12.cpp) | kartduelj | Kart Duel (Japan, KTD1/VER.A) |  |
 | [namco/namcos12.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos12.cpp) | sws2001 | Super World Stadium 2001 (Japan, SS11/VER.A) |  |
 | [namco/namcos1b.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos1b.cpp) | tankfrceb | Tank Force (bootleg) |  |
+| [namco/namcos21_c67.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_c67.cpp) | solvalou | Solvalou (SV1, Japan) |  |
 | [namco/namcos21_c67.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_c67.cpp) | aircomb | Air Combat (AC2, US) | `There's code for a SCI, is it even possible to play multiplayer?` |
 | [namco/namcos21_c67.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_c67.cpp) | aircombj | Air Combat (AC1, Japan) |  |
+| [namco/namcos21_c67.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_c67.cpp) | cybsled | Cyber Sled (CY2, World) |  |
+| [namco/namcos21_c67.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_c67.cpp) | cybsleda | Cyber Sled (CY1, World?) | `usually an 'xx1' set would be Japan, but this shows neither a warning nor Japanese text, verify on hardware` |
 | [namco/namcos21_de.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos21_de.cpp) | driveyes | Driver's Eyes (Japan) (1992/01/10, Main Ver 2.1, Sub Ver 1.1) |  |
+| [namco/namcos22.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos22.cpp) | ridgeracf | Ridge Racer Full Scale (World, RRF2) | `1993-12-13, very different version, incomplete dump.` |
+| [namco/namcos22.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/namcos22.cpp) | dirtdash | Dirt Dash (World, DT2 Ver.B) | `96/?1/0? 21:03:?6, one ROM is bad` |
 | [namco/rbowlorama.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/rbowlorama.cpp) | rbowlorama | Rockin' Bowl-O-Rama (v2.1.1) |  |
 | [namco/shootaway2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/shootaway2.cpp) | shootaw2 | Shoot Away II |  |
+| [namco/sweetland.cpp](https://github.com/mamedev/mame/blob/master/src/mame/namco/sweetland.cpp) | sweetlnd | Sweet Land |  |
 | [nasco/crgolf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nasco/crgolf.cpp) | mastrglf | Master's Golf |  |
 | [nasco/suprgolf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nasco/suprgolf.cpp) | albatross | Albatross (US prototype?) |  |
 | [neogeo/neogeo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/neogeo/neogeo.cpp) | kog | King of Gladiator (bootleg of The King of Fighters '97) | `protected bootleg` |
 | [neogeo/neogeo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/neogeo/neogeo.cpp) | mvstemp | MVS-TEMP 'SubSystem Ver1.4' (Nazca development board) |  |
+| [neogeo/neogeo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/neogeo/neogeo.cpp) | stakwindev | Stakes Winner / Stakes Winner - GI Kinzen Seiha e no Michi (early development board) |  |
 | [nichibutsu/cclimber.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nichibutsu/cclimber.cpp) | bagmanf | Le Bagnard (bootleg on Crazy Kong hardware) |  |
 | [nichibutsu/galivan.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nichibutsu/galivan.cpp) | youmab | Youma Ninpou Chou (Game Electronics bootleg, set 1) | `player is invincible` |
 | [nichibutsu/galivan.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nichibutsu/galivan.cpp) | youmab2 | Youma Ninpou Chou (Game Electronics bootleg, set 2) | `""` |
@@ -1249,9 +1648,23 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [nichibutsu/nightgal.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nichibutsu/nightgal.cpp) | sgaltrop | Sexy Gal Tropical [BET] (Japan 850805 SXG T-02) |  |
 | [nintendo/aleck64.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/aleck64.cpp) | mtetrisc | Magical Tetris Challenge (981009 Japan) | `missing E90 gfxs (playfield)` |
 | [nintendo/cham24.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/cham24.cpp) | cham24 | Chameleon 24 |  |
+| [nintendo/dkong.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/dkong.cpp) | dkongjrc | Donkey Kong/JR (combo) (hack,V1.2) |  |
+| [nintendo/dkong.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/dkong.cpp) | dkongddk | Double Donkey Kong (hack,V1.2) |  |
 | [nintendo/nes_arcade_bl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nes_arcade_bl.cpp) | smb3bl | Super Mario Bros. 3 (NES bootleg) | `1987.10.01 in Z80 ROM` |
 | [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_actr | Act Raiser (Nintendo Super System) |  |
 | [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_adam | The Addams Family (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_aten | David Crane's Amazing Tennis (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_con3 | Contra 3: The Alien Wars (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_lwep | Lethal Weapon (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_ncaa | NCAA Basketball (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_rob3 | Robocop 3 (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_skin | Skins Game (Nintendo Super System) | `can't start` |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_ssoc | Super Soccer (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_smw | Super Mario World (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_fzer | F-Zero (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_sten | Super Tennis (Nintendo Super System) |  |
+| [nintendo/nss.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/nss.cpp) | nss_smas | Super Mario All-Stars (Nintendo Super System) | `bad dump` |
+| [nintendo/sfcbox.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/sfcbox.cpp) | sfcbox | Super Famicom Box BIOS |  |
 | [nintendo/sfcbox.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/sfcbox.cpp) | pss61 | Super Mario Kart / Super Mario Collection / Star Fox (Super Famicom Box) |  |
 | [nintendo/sfcbox.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/sfcbox.cpp) | pss62 | New Super 3D Golf Simulation - Waialae no Kiseki / Super Mahjong 2 (Super Famicom Box) |  |
 | [nintendo/sfcbox.cpp](https://github.com/mamedev/mame/blob/master/src/mame/nintendo/sfcbox.cpp) | pss63 | Super Donkey Kong / Super Tetris 2 + Bombliss (Super Famicom Box) |  |
@@ -1293,14 +1706,83 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [pc/queen.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pc/queen.cpp) | queen | Queen? |  |
 | [pc/sis630.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pc/sis630.cpp) | gamecstl | GameCristal |  |
 | [pc/sis630.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pc/sis630.cpp) | gamecst2 | GameCristal (version 2.613) |  |
+| [pce/ggconnie.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pce/ggconnie.cpp) | ggconnie | Go! Go! Connie chan Jaka Jaka Janken |  |
+| [pce/ggconnie.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pce/ggconnie.cpp) | smf | Super Medal Fighters (Japan 970228) |  |
+| [pce/ggconnie.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pce/ggconnie.cpp) | fishingm | Fishing Master (971107 JPN) | `Hopper Jam Error` |
+| [pce/paranoia.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pce/paranoia.cpp) | paranoia | Paranoia |  |
+| [pce/tourvis.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pce/tourvis.cpp) | tourvis | TourVisión (PC Engine bootleg) |  |
 | [philips/cdi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/philips/cdi.cpp) | cdibios | CD-i (Mono-I) (PAL) BIOS |  |
 | [philips/cdi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/philips/cdi.cpp) | quizardff | Quizard Fun and Fascination (French Edition V1 - 01/96) |  |
 | [phoenix/phoenix.cpp](https://github.com/mamedev/mame/blob/master/src/mame/phoenix/phoenix.cpp) | fenix | Fenix (Orio bootleg of Phoenix) |  |
 | [phoenix/phoenix.cpp](https://github.com/mamedev/mame/blob/master/src/mame/phoenix/phoenix.cpp) | griffono | Griffon (Olympia bootleg of Phoenix) |  |
+| [pinball/allied.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/allied.cpp) | allied | Allied System |  |
+| [pinball/by17.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by17.cpp) | matahari | Mata Hari |  |
+| [pinball/by17.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by17.cpp) | pwerplay | Power Play (Pinball) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | sst | Supersonic |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | playboy | Playboy |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | lostwrlp | Lost World |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | smman | Six Million Dollar Man |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | voltan | Voltan Escapes Cosmic Doom |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | startrep | Star Trek (Pinball) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | kiss | Kiss |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | hglbtrtr | Harlem Globetrotters On Tour |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | dollyptn | Dolly Parton |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | paragon | Paragon |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | ngndshkr | Nitro Ground Shaker |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | slbmania | Silverball Mania |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | futurspa | Future Spa |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | spaceinv | Space Invaders |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | rollston | Rolling Stones |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | mystic | Mystic |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | xenon | Xenon |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | xenonf | Xenon (French) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | viking | Viking |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | hotdoggn | Hotdoggin' |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | skatebll | Skateball |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | frontier | Frontier |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | speakesy | Speakeasy |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | speakesy4p | Speakeasy 4 Player |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | bmx | BMX |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | granslam | Grand Slam |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | granslam4 | Grand Slam (4 Players) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | goldball | Gold Ball (set 1) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | goldballn | Gold Ball (Field Service Upgrade) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | flashgdn | Flash Gordon |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | flashgdnf | Flash Gordon (French) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | flashgdnv | Flash Gordon (Vocalizer sound) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | flashgdnfv | Flash Gordon (French Vocalizer sound) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | fball_ii | Fireball II |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | eballdlx | Eight Ball Deluxe (rev. 15) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | eballd14 | Eight Ball Deluxe (rev. 14) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | embryon | Embryon |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | fathom | Fathom |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | centaur | Centaur |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | medusa | Medusa |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | vector | Vector |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | elektra | Elektra |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | spectrm | Spectrum |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | spectrm4 | Spectrum (ver 4) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | rapidfip | Rapid Fire |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | m_mpac | Mr. and Mrs. PacMan (set 1) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | m_mpacb | Mr. and Mrs. PacMan (set 2) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | mysteria | Mysterian (prototype) | `uses 2 sound boards` |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | kosteel | Kings of Steel |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | xsandos | X's & O's |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | spyhuntr | Spy Hunter (Pinball) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | fbclass | Fireball Classic |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | blakpyra | Black Pyramid |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | cybrnaut | Cybernaut |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | bigbat | Big Bat (Bat game) |  |
+| [pinball/by35.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/by35.cpp) | mdntmrdr | Midnight Marauders (Gun game) |  |
+| [pinball/gp_1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/gp_1.cpp) | gp_110 | Model 110 |  |
+| [pinball/gts1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/gts1.cpp) | gts1 | System 1 |  |
 | [pinball/icecold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/icecold.cpp) | icecold | Ice Cold Beer (set 1) |  |
 | [pinball/icecold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/icecold.cpp) | icecoldf | Ice Cold Beer (set 2) |  |
 | [pinball/icecold.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/icecold.cpp) | zekepeak | Zeke's Peak |  |
 | [pinball/missamer.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/missamer.cpp) | missamer | Miss Americana |  |
+| [pinball/recel.cpp](https://github.com/mamedev/mame/blob/master/src/mame/pinball/recel.cpp) | recel | Recel BIOS |  |
+| [playmark/sderby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/playmark/sderby.cpp) | croupier | Croupier (Playmark Roulette v.20.05) |  |
+| [playmark/sderby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/playmark/sderby.cpp) | croupiera | Croupier (Playmark Roulette v.09.04) |  |
 | [playmark/sderby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/playmark/sderby.cpp) | croupierb | Croupier (Playmark Roulette v.03.09) | `title screen says Croupier 2 but every string in ROM says Croupier. See magictch below for emulation problems` |
 | [playmark/sderby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/playmark/sderby.cpp) | magictch | Magic Touch | `wrong text layer hook up, stops during boot and needs debugger help to go in game, inputs aren't done, some scroll offsets are wrong` |
 | [psikyo/psikyosh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/psikyo/psikyosh.cpp) | s1945iiibl | Strikers 1945 III (World) / Strikers 1999 (Japan) (bootleg, set 1) | `sprites don't show up if MAME is started without debugger active` |
@@ -1329,6 +1811,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/hikaru.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/hikaru.cpp) | pharrier | Planet Harriers (Rev A) |  |
 | [sega/hikaru.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/hikaru.cpp) | swracer | Star Wars: Racer Arcade |  |
 | [sega/hshavoc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/hshavoc.cpp) | hshavoc | High Seas Havoc |  |
+| [sega/kopunch.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/kopunch.cpp) | kopunch | KO Punch |  |
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | hotd4 | The House of the Dead 4 (Export) (Rev B) |  |
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | hotd4a | The House of the Dead 4 (Export) (Rev A) |  |
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | vf5 | Virtua Fighter 5 (Export) |  |
@@ -1347,7 +1830,12 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | rambo | Rambo (Export) |  |
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | hummerxt | Hummer Extreme |  |
 | [sega/lindbergh.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/lindbergh.cpp) | lbvbiosu | VBIOS updater |  |
+| [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | sonic3mb | Sonic The Hedgehog 3 (bootleg of Mega Drive version) | `undumped PIC` |
+| [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | barek2mb | Bare Knuckle II (bootleg of Mega Drive version) | `Needs PIC hook up` |
+| [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | barek3mba | Bare Knuckle III (bootleg of Mega Drive version, protected) | `undumped PIC` |
 | [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | bk3ssrmb | Bare Knuckle III / Sunset Riders (bootleg of Mega Drive versions) | `Currently boots as Bare Knuckle III, mechanism to switch game not found yet` |
+| [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | twinktmb | Twinkle Tale (bootleg of Mega Drive version) | `Needs PIC decap or simulation` |
+| [sega/megadriv_acbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/megadriv_acbl.cpp) | jparkmb | Jurassic Park (bootleg of Mega Drive version) | `Needs PIC decap or simulation` |
 | [sega/model1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/model1.cpp) | vf | Virtua Fighter |  |
 | [sega/model1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/model1.cpp) | netmerc | Sega NetMerc |  |
 | [sega/model2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/model2.cpp) | daytona | Daytona USA (Revision A) |  |
@@ -1525,11 +2013,13 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/segasm1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/segasm1.cpp) | bingpty | Bingo Party Multicart (Rev B) (M1 Satellite board) |  |
 | [sega/segasm1.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/segasm1.cpp) | carboule | Caribbean Boule (M1 Satellite board) |  |
 | [sega/segattl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/segattl.cpp) | fonz | Fonz [TTL] |  |
+| [sega/segaxbd.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/segaxbd.cpp) | rascot | Royal Ascot (Japan, terminal?) |  |
 | [sega/sg1000a.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/sg1000a.cpp) | sderbys | Super Derby (satellite board) | `decryption incomplete, currently displays IC23 and IC24 bad if resetted a few times` |
 | [sega/sg1000a.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/sg1000a.cpp) | sderby2s | Super Derby II (satellite board) |  |
 | [sega/shtzone.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/shtzone.cpp) | shtzone | Shooting Zone System BIOS |  |
 | [sega/sms_bootleg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/sms_bootleg.cpp) | smssgame | Super Game (Sega Master System Multi-game bootleg) |  |
 | [sega/sms_bootleg.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/sms_bootleg.cpp) | smssgamea | Super Game (Sega Master System Multi-game bootleg) (alt games) | `for German market?` |
+| [sega/speedbsk.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/speedbsk.cpp) | speedbsk | Speed Basketball |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | smleague | Super Major League (U 960108 V1.000) |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | finlarch | Final Arch (J 950714 V1.001) |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | pclub2 | Print Club 2 (U 970921 V1.000) |  |
@@ -1563,7 +2053,12 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | stress | Stress Busters (J 981020 V1.000) |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | nameclub | Name Club (J 960315 V1.000) | `uses the same type of protection as decathlete!!` |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | nclubv2 | Name Club Ver.2 (J 960315 V1.000) | `^  (has the same datecode as nameclub, probably incorrect unless both were released the same day)` |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | nclubv3 | Name Club Ver.3 (J 970723 V1.000) | `no protection` |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | nclubv4 | Name Club Ver.4 (J 971202 V1.000) | `no protection` |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | nclubdis | Name Club Disney (J 980614 V1.000) | `errors due to missing security card` |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | vfremix | Virtua Fighter Remix (JUETBKAL 950428 V1.000) |  |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | decathlt | Decathlete (JUET 960709 V1.001) |  |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | decathlto | Decathlete (JUET 960424 V1.000) |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | twcup98 | Tecmo World Cup '98 (JUET 980410 V1.000) | `some situations with the GK result in the game stalling, maybe CPU core bug??` |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | twsoc98 | Tecmo World Soccer '98 (JUET 980410 V1.000) | `^^ (check)` |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | magzun | Magical Zunou Power (J 961031 V1.000) |  |
@@ -1572,6 +2067,8 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | fanzonem | Fantasy Zone (medal game, REV.A) (J 990202 V1.000) | `require SH2's SCI serial port emulated, to communicate with coin/medal-related I/O board` |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | sackids | Soreyuke Anpanman Crayon Kids (J 001026 V1.000) |  |
 | [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | dfeverg | Dancing Fever Gold (J 000821 V2.001) |  |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | sfish2 | Sport Fishing 2 (UET 951106 V1.10e) |  |
+| [sega/stv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/stv.cpp) | sfish2j | Sport Fishing 2 (J 951201 V1.100) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | shinobld | Shinobi (Datsu bootleg, set 1) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | shinoblda | Shinobi (Datsu bootleg, set 2) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | shinobldb | Shinobi (Datsu bootleg, set 3) |  |
@@ -1579,6 +2076,8 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | passht4b | Passing Shot (4 Players) (bootleg) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | wb3bbl | Wonder Boy III - Monster Lair (bootleg) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | wb3bble | Wonder Boy III - Monster Lair (encrypted bootleg) |  |
+| [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | bayrouteb1 | Bay Route (encrypted, protected bootleg) | `broken sprites (due to missing/wrong irq code?)` |
+| [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | bayrouteb2 | Bay Route (Datsu bootleg) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | goldnaxeb1 | Golden Axe (encrypted bootleg) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | goldnaxeb2 | Golden Axe (bootleg) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | tturfbl | Tough Turf (Datsu bootleg) |  |
@@ -1589,7 +2088,11 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | eswatbl | E-Swat - Cyber Police (bootleg, set 1) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | eswatbl2 | E-Swat - Cyber Police (bootleg, set 2) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | timescanbl | Time Scanner (bootleg) | `encrypted` |
+| [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | beautyb | Beauty Block |  |
+| [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | iqpipe | IQ Pipe |  |
+| [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | shdancbla | Shadow Dancer (bootleg, set 2) |  |
 | [sega/system16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/system16.cpp) | bloxeedbl | Bloxeed (bootleg) | `P8749H MCU isn't dumped, used for protection?` |
+| [sega/timetrv.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/timetrv.cpp) | timetrv2 | Time Traveler (set 2) | `Different frame indices; Europe?` |
 | [sega/vicdual.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/vicdual.cpp) | invho2a | Invinco / Head On 2 (set 2) | `wrong colors make Head On 2 unplayable (all black)` |
 | [sega/vicdual.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/vicdual.cpp) | carnivalca | Carnival (cocktail, earlier) | `one missing ROM` |
 | [sega/winclub.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/winclub.cpp) | wwmspot | Winner's Wheel - Magical Spot | `year taken from instructions on cabinet (see YouTube video)` |
@@ -1597,20 +2100,51 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sega/y2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/y2.cpp) | kof2002umj | The King of Fighters 2002 Unlimited Match (Japan) |  |
 | [sega/y2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sega/y2.cpp) | higurashi | Higurashi no Naku Koro ni Jong (Japan) |  |
 | [seibu/airraid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/airraid.cpp) | cshooter | Cross Shooter (Single PCB) |  |
+| [seibu/airraid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/airraid.cpp) | airraid | Air Raid (Single PCB) |  |
 | [seibu/banprestoms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/banprestoms.cpp) | tvdenwad | Terebi Denwa Doraemon |  |
 | [seibu/banprestoms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/banprestoms.cpp) | tvdenwam | Terebi Denwa Super Mario World |  |
 | [seibu/banprestoms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/banprestoms.cpp) | marioun | Super Mario World - Mario Undoukai |  |
 | [seibu/bloodbro_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/bloodbro_ms.cpp) | bloodbrom | Blood Bros. (Modular System) |  |
 | [seibu/deadang.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/deadang.cpp) | popnrun | Pop'n Run - The Videogame (set 1) |  |
 | [seibu/deadang.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/deadang.cpp) | popnruna | Pop'n Run - The Videogame (set 2) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | cupsoc | Seibu Cup Soccer (set 1) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | cupsoca | Seibu Cup Soccer (set 2) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | cupsocb | Seibu Cup Soccer (set 3) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | cupsocs | Seibu Cup Soccer :Selection: (set 1) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | cupsocs2 | Seibu Cup Soccer :Selection: (set 2) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | olysoc92 | Olympic Soccer '92 (set 1) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | olysoc92a | Olympic Soccer '92 (set 2) |  |
+| [seibu/legionna.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/legionna.cpp) | olysoc92b | Olympic Soccer '92 (set 3) |  |
+| [seibu/panicr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/panicr.cpp) | panicr | Panic Road (Japan) |  |
+| [seibu/panicr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/panicr.cpp) | panicrg | Panic Road (Germany) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteam | Zero Team USA (US) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteama | Zero Team (Japan?, earlier?, set 1) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteamb | Zero Team (Japan?, later batteryless) | `reprograms the sprite decrypt data of the SEI251 on every boot, like raiden2 does. hack?` |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteamc | Zero Team (Taiwan) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteamd | Zero Team (Korea) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteame | Zero Team (Japan?, earlier?, set 2) |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteams | Zero Team Selection |  |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | zeroteamsr | Zero Team Suicide Revival Kit | `reprograms the sprite decrypt data of the SEI251 only, no game code` |
+| [seibu/raiden2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden2.cpp) | xsedae | X Se Dae Quiz (Korea) |  |
 | [seibu/raiden_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/raiden_ms.cpp) | raidenm | Raiden (Modular System) |  |
+| [seibu/seicupbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/seicupbl.cpp) | cupsocsb | Seibu Cup Soccer :Selection: (bootleg, set 1) |  |
+| [seibu/seicupbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/seicupbl.cpp) | cupsocsb2 | Seibu Cup Soccer :Selection: (bootleg, set 2) |  |
+| [seibu/seicupbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/seicupbl.cpp) | cupsocsb3 | Seibu Cup Soccer :Selection: (bootleg, set 3) |  |
+| [seibu/seicupbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/seicupbl.cpp) | cupsocsb4 | Seibu Cup Soccer :Selection: (bootleg, set 4) |  |
+| [seibu/seicupbl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/seicupbl.cpp) | cupsocsb5 | Seibu Cup Soccer :Selection: (bootleg, set 5) |  |
 | [seibu/stfight.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seibu/stfight.cpp) | cshootert | Cross Shooter (2 PCB Stack) |  |
+| [seta/macs.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/macs.cpp) | macsbios | Multi Amenity Cassette System BIOS |  |
+| [seta/macs.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/macs.cpp) | mac2bios | Multi Amenity Cassette System 2 BIOS |  |
 | [seta/macs.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/macs.cpp) | kisekaem | Kisekae Mahjong |  |
 | [seta/macs.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/macs.cpp) | kisekaeh | Kisekae Hanafuda |  |
 | [seta/macs.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/macs.cpp) | cultname | Seimei-Kantei-Meimei-Ki Cult Name |  |
 | [seta/seta.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta.cpp) | inttoote | International Toote (Germany, P523.V01) |  |
 | [seta/seta.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta.cpp) | zingzipbl | Zing Zing Zip (bootleg) |  |
 | [seta/seta.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta.cpp) | daiohp3 | Daioh (prototype, earliest) | `believed earlier as it doesn't have the intro, needs correct program ROMs` |
+| [seta/seta2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta2.cpp) | staraudi | Star Audition | `needs flipscreen hooking up properly with new code to function at all` |
+| [seta/seta2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta2.cpp) | ablastb | Hong Tian Lei (A-Blast) (bootleg) | `at least "tilemap sprite" scrolly flag differs, FPGA instead of x1-010` |
+| [seta/seta2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/seta2.cpp) | namcostr | Namco Stars |  |
+| [seta/simple_st0016.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/simple_st0016.cpp) | mayjinsn | Mayjinsen |  |
 | [seta/simple_st0016.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/simple_st0016.cpp) | dcrown | Dream Crown (set 1) | `(c) 1994 Nippon Data Kiki is uploaded near the Japanese Insert coin text` |
 | [seta/simple_st0016.cpp](https://github.com/mamedev/mame/blob/master/src/mame/seta/simple_st0016.cpp) | dcrowna | Dream Crown (set 2) | `the Insert Coin text has been translated to English and no (c) is uploaded` |
 | [sigma/sigma21.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sigma/sigma21.cpp) | sigma21 | 21 (Sigma) |  |
@@ -1618,9 +2152,14 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [sigma/sigmab52.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sigma/sigmab52.cpp) | jwildb52h | Joker's Wild (B52 system, BP55114-V1104, Ver.054NMV, Harrah's GFX) |  |
 | [sigma/sigmab52.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sigma/sigmab52.cpp) | jwildb52a | Joker's Wild (B52 system, WP02001-054, Ver.031WM) |  |
 | [sigma/sigmab98.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sigma/sigmab98.cpp) | dashhero | Minna Ganbare! Dash Hero | `1999 in the rom` |
+| [skeleton/design.cpp](https://github.com/mamedev/mame/blob/master/src/mame/skeleton/design.cpp) | design6 | Design D6 |  |
+| [skeleton/design.cpp](https://github.com/mamedev/mame/blob/master/src/mame/skeleton/design.cpp) | designe | Design (Euro) |  |
 | [skeleton/elcirculo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/skeleton/elcirculo.cpp) | elcirculo | El Circulo |  |
 | [skeleton/happyvideo.cpp](https://github.com/mamedev/mame/blob/master/src/mame/skeleton/happyvideo.cpp) | hppyvideo | Happy Video |  |
 | [skeleton/seoul88.cpp](https://github.com/mamedev/mame/blob/master/src/mame/skeleton/seoul88.cpp) | seoul88 | Seoul 88 Fever |  |
+| [snk/dmndrby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/dmndrby.cpp) | dmndrby | Diamond Derby (newer) | `hack?` |
+| [snk/dmndrby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/dmndrby.cpp) | dmndrbya | Diamond Derby (original) |  |
+| [snk/dmndrby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/dmndrby.cpp) | dmndrbybl | Diamond Derby (EDG Impeuropex bootleg) |  |
 | [snk/hng64.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/hng64.cpp) | hng64 | Hyper NeoGeo 64 BIOS |  |
 | [snk/hng64.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/hng64.cpp) | roadedge | Roads Edge / Round Trip RV (rev.B) |  |
 | [snk/hng64.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/hng64.cpp) | sams64 | Samurai Shodown 64 / Samurai Spirits 64 |  |
@@ -1631,11 +2170,22 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [snk/hng64.cpp](https://github.com/mamedev/mame/blob/master/src/mame/snk/hng64.cpp) | buriki | Buriki One: World Grapple Tournament '99 in Tokyo (rev.B) |  |
 | [sony/taitogn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/taitogn.cpp) | sianniv | Space Invaders Anniversary (V2.02J) | `IRQ at the wrong time` |
 | [sony/taitogn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/taitogn.cpp) | kollon | Kollon (V2.04JA 2003/11/01 12:00) | `similar lockup problem as sianniv` |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | strider2 | Strider 2 (Euro 991213) | `random hangs / crashes` |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | strider2u | Strider 2 (USA 991213) |  |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | strider2a | Strider 2 (Asia 991213) |  |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | shiryu2 | Strider Hiryu 2 (Japan 991213) |  |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | primrag2 | Primal Rage 2 (Ver 0.36a) | `watchdog reset at startup` |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | beastrzrb | Beastorizer (USA bootleg) |  |
+| [sony/zn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sony/zn.cpp) | bam2 | Bust a Move 2 - Dance Tengoku Mix (Japanese ROM ver. 1999/07/17 10:00:00) |  |
 | [stern/cliffhgr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/stern/cliffhgr.cpp) | cliffhgra2 | Cliff Hanger (set 3) | `seems to fail the third startup check, bypassable by doing bpset 0x3f5 and at the third occurrence do PC = 0x3f7` |
 | [stern/cliffhgr.cpp](https://github.com/mamedev/mame/blob/master/src/mame/stern/cliffhgr.cpp) | goaltogo | Goal To Go |  |
 | [subsino/lastfght.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/lastfght.cpp) | lastfght | Last Fighting |  |
+| [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | newhunter | New HUNTer | `1989 on screen, but this bootleg is from 1992` |
+| [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | newhunterb | New HUNTer (bootleg, set 1) |  |
+| [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | newhunterc | New HUNTer (bootleg, set 2) | `1989 on screen, but "Copyright 1993 SubSino Corp. Taipei, Taiwan." on program ROM` |
 | [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | dinofmly | Dino Family | `stops with 'error password' message during boot` |
 | [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | dinofmlya | Dino Family (Portuguese, Tangasoft license) | `stops with 'error password' message during boot` |
+| [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | sevenlnd | Seven Land |  |
 | [subsino/subsino.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino.cpp) | mtrainnv | Magic Train (Clear NVRAM ROM?) |  |
 | [subsino/subsino2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino2.cpp) | strain | Super Train (Ver. 1.9) |  |
 | [subsino/subsino2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/subsino/subsino2.cpp) | tbonusal | Treasure Bonus (American Alpha, Ver. 1.6) |  |
@@ -1654,12 +2204,16 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [suna/suna8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/suna/suna8.cpp) | hardhea2b | Hard Head 2 (v2.0, bootleg) |  |
 | [sunelectronics/blockch.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sunelectronics/blockch.cpp) | blockch | G.T. Block Challenger |  |
 | [sunelectronics/blockch.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sunelectronics/blockch.cpp) | tvgm8080 | TV Game 8080 |  |
+| [sunelectronics/route16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sunelectronics/route16.cpp) | jongpute | Jongputer | `sampling voice is not emulated, bug with colors makes tile recognition difficult` |
+| [sunelectronics/route16.cpp](https://github.com/mamedev/mame/blob/master/src/mame/sunelectronics/route16.cpp) | vscompmj | VS Computer Mahjong | `decryption might be incomplete (attract resets), inputs seem read differently` |
 | [taito/2mindril.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/2mindril.cpp) | 2mindril | Two Minute Drill (Ver 2.93A 1994/02/16) |  |
 | [taito/arkanoid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/arkanoid.cpp) | arkatour2 | Tournament Arkanoid (US, newer) | `same FRI,  6 JUN 1986, 15:49 string for both sets, but labels show this is newer` |
 | [taito/arkanoid.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/arkanoid.cpp) | hexaa | Hexa (with 2xZ80, protected) |  |
 | [taito/bingowav.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/bingowav.cpp) | bingowav | Bingo Wave |  |
 | [taito/bublbobl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/bublbobl.cpp) | bub8749 | Bubble Bobble (bootleg of Japan Ver 0.0 with 8749) | `MCU not hooked up` |
 | [taito/cchance.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/cchance.cpp) | cchance | Cherry Chance |  |
+| [taito/cpzodiac.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/cpzodiac.cpp) | cpzodiac | Captain Zodiac (World) |  |
+| [taito/cpzodiac.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/cpzodiac.cpp) | cpzodiacj | Captain Zodiac (Japan) |  |
 | [taito/dinoking.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/dinoking.cpp) | dkkids | Dinoking Kids |  |
 | [taito/dinoking.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/dinoking.cpp) | dkbattle | Dinoking Battle |  |
 | [taito/grchamp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/grchamp.cpp) | grchampa | Grand Champion (set 2) | `uses different ports. Bad dump?` |
@@ -1671,6 +2225,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [taito/marinedt.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/marinedt.cpp) | marinedt | Marine Date |  |
 | [taito/nycaptor.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/nycaptor.cpp) | cyclshtg | Cycle Shooting |  |
 | [taito/pkspirit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/pkspirit.cpp) | pkspirit | Poker Spirit |  |
+| [taito/sbmjb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/sbmjb.cpp) | honooinv | Honoo no Invader (main ver. 1.35, video ver. 1.35) |  |
 | [taito/sbmjb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/sbmjb.cpp) | bubbroul | Bubblen Roulette (main ver. 1.8, video ver. 1.3) |  |
 | [taito/sbmjb.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/sbmjb.cpp) | sbmjb | Sonic Blast Man's Janken Battle (main ver. 1.1, video ver. 1.0) |  |
 | [taito/taitoair.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taitoair.cpp) | ainferno | Air Inferno (World) |  |
@@ -1709,15 +2264,32 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [taito/taitotz.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taitotz.cpp) | raizpin | Raizin Ping Pong (V2.01O) |  |
 | [taito/taitotz.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taitotz.cpp) | raizpinj | Raizin Ping Pong (V2.01J) |  |
 | [taito/taitowlf.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taitowlf.cpp) | pf2012 | Psychic Force 2012 (Ver 2.04J) | `1998/05/07 18:30:00` |
+| [taito/taito_f2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_f2.cpp) | footchmpbl | Football Champ / Euro Football Champ (World) (bootleg) | `very different hw register etc.` |
+| [taito/taito_f3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_f3.cpp) | bubsymphb | Bubble Symphony (bootleg with OKI6295) | `backgrounds don't display, OKI banking is wrong` |
+| [taito/taito_f3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_f3.cpp) | bubsymphba | Seoul Symphony (Bubble Symphony bootleg with OKI6295) | `backgrounds don't display, OKI banking is wrong` |
 | [taito/taito_f3.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_f3.cpp) | quizhuhu | Moriguchi Hiroko no Quiz de Hyuu!Hyuu! (Ver 2.2J 1995/05/25) | `quiz text positioning, heavy sprite window usage` |
 | [taito/taito_o.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_o.cpp) | parentj | Parent Jack (Japan) |  |
 | [taito/taito_o.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_o.cpp) | eibise | Eibise (Japan) |  |
 | [taito/vicshoot.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/vicshoot.cpp) | vicshoot | Victory Shoot | `a website lists it as 1994, but it was publicized on 1995 magazines. Going with the latter for now` |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgp | World Grand Prix (World) |  |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgpu | World Grand Prix (US) |  |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgpj | World Grand Prix (Japan) |  |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgpjoy | World Grand Prix (joystick version) (Japan, set 1) |  |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgpjoya | World Grand Prix (joystick version) (Japan, set 2) |  |
+| [taito/wgp.cpp](https://github.com/mamedev/mame/blob/master/src/mame/taito/wgp.cpp) | wgp2 | World Grand Prix 2 (Japan) |  |
 | [tatsumi/kingdrby.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/kingdrby.cpp) | cowrace | Cow Race (hack of King Derby) |  |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | apache3 | Apache 3 (rev F) | `Rev F CPU code` |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | apache3a | Apache 3 (rev E) | `Rev C & E CPU code` |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | apache3b | Apache 3 (Kana Corporation license, rev G) | `Rev C & G CPU code` |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | roundup5 | Round Up 5 - Super Delta Force |  |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | cyclwarr | Cycle Warriors (rev C) | `Rev C & B CPU code` |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | cyclwarra | Cycle Warriors (rev B) | `Rev B & A CPU code` |
+| [tatsumi/tatsumi.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tatsumi/tatsumi.cpp) | cyclwarrb | Cycle Warriors | `Original version with no Rev roms` |
 | [technos/ddragon.cpp](https://github.com/mamedev/mame/blob/master/src/mame/technos/ddragon.cpp) | ddragon6809 | Double Dragon (bootleg with 3xM6809, set 1) |  |
 | [technos/ddragon.cpp](https://github.com/mamedev/mame/blob/master/src/mame/technos/ddragon.cpp) | ddragon6809a | Double Dragon (bootleg with 3xM6809, set 2) |  |
 | [tecmo/gaiden.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tecmo/gaiden.cpp) | mastninj | Master Ninja (bootleg of Shadow Warriors / Ninja Gaiden) | `sprites need fixing, sound and yscroll too. - it is confirmed the curtains don't scroll on the pcb` |
 | [tecmo/tehkanwc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/tecmo/tehkanwc.cpp) | tehkanwcc | Tehkan World Cup (set 3, bootleg) | `aka 'World Cup 85', different inputs?` |
+| [thepit/thepit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/thepit/thepit.cpp) | theportr | The Porter (bootleg of Port Man) | `PROM has been dumped, but colours seem wrong` |
 | [thepit/thepit.cpp](https://github.com/mamedev/mame/blob/master/src/mame/thepit/thepit.cpp) | zaryavos | Zarya Vostoka |  |
 | [toaplan/slapfght.cpp](https://github.com/mamedev/mame/blob/master/src/mame/toaplan/slapfght.cpp) | tigerhb4 | Tiger-Heli (bootleg set 4) | `MCU not hooked up` |
 | [toaplan/slapfght_ms.cpp](https://github.com/mamedev/mame/blob/master/src/mame/toaplan/slapfght_ms.cpp) | slapfighm | Slap Fight (Modular System) |  |
@@ -1726,6 +2298,9 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [toaplan/toaplan2.cpp](https://github.com/mamedev/mame/blob/master/src/mame/toaplan/toaplan2.cpp) | probowl2 | Pro Bowl 2 | `bad GFXs, no sound banking, controls, etc` |
 | [unico/unianapc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/unico/unianapc.cpp) | dhunting | Dream Hunting (US) | `Ver 1007?` |
 | [unico/unianapc.cpp](https://github.com/mamedev/mame/blob/master/src/mame/unico/unianapc.cpp) | hogwild | Hog Wild (US) | `Ver.00.26.b?` |
+| [universal/docastle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/docastle.cpp) | idsoccera | Indoor Soccer (set 2) | `see MT05419` |
+| [universal/docastle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/docastle.cpp) | idsoccert | Indoor Soccer (Tecfri license PCB) | `see MT05419` |
+| [universal/docastle.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/docastle.cpp) | asoccer | American Soccer | `see MT05419` |
 | [universal/superdq.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/superdq.cpp) | superdq | Super Don Quix-ote (Long Scenes) |  |
 | [universal/superdq.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/superdq.cpp) | superdqs | Super Don Quix-ote (Short Scenes) |  |
 | [universal/superdq.cpp](https://github.com/mamedev/mame/blob/master/src/mame/universal/superdq.cpp) | superdqa | Super Don Quix-ote (Short Scenes, Alt) |  |
@@ -1737,6 +2312,7 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [vsystem/gstriker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/vsystem/gstriker.cpp) | gstrikerj | Grand Striker (Japan) |  |
 | [vsystem/gstriker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/vsystem/gstriker.cpp) | vgoalsoc | V Goal Soccer (Europe) | `has ger/hol/arg/bra/ita/eng/spa/fra` |
 | [vsystem/gstriker.cpp](https://github.com/mamedev/mame/blob/master/src/mame/vsystem/gstriker.cpp) | vgoalsoca | V Goal Soccer (US/Japan/Korea) | `has ger/hol/arg/bra/ita/kor/usa/jpn` |
+| [vsystem/rpunch.cpp](https://github.com/mamedev/mame/blob/master/src/mame/vsystem/rpunch.cpp) | svolleybl | Super Volleyball (bootleg) | `aka 1991 Spikes?` |
 | [wing/lucky37.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky37.cpp) | lucky21 | Lucky 21 |  |
 | [wing/lucky37.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky37.cpp) | lucky21d | Lucky 21-D |  |
 | [wing/lucky37.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky37.cpp) | lucky25 | Lucky 25 |  |
@@ -1744,6 +2320,11 @@ If note is in _italics_ then it's manually reduced so not to span hundreds of li
 | [wing/lucky37.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky37.cpp) | bingo75 | Bingo 75 |  |
 | [wing/lucky74.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky74.cpp) | lucky74b | Lucky 74 (bootleg, set 2) |  |
 | [wing/lucky74.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/lucky74.cpp) | excitbj | Exciting Black Jack |  |
+| [wing/pinkiri8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/pinkiri8.cpp) | janshi | Janshi |  |
+| [wing/pinkiri8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/pinkiri8.cpp) | ronjan | Ron Jan |  |
+| [wing/pinkiri8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/pinkiri8.cpp) | ronjans | Ron Jan Super | `'SUPER' flashes in the middle of the screen` |
+| [wing/pinkiri8.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/pinkiri8.cpp) | pinkiri8 | Pinkiri 8 |  |
 | [wing/slotcarn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/slotcarn.cpp) | slotcarn | Slot Carnival |  |
 | [wing/slotcarn.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/slotcarn.cpp) | spielbud | Spiel Bude (German) |  |
 | [wing/superwng.cpp](https://github.com/mamedev/mame/blob/master/src/mame/wing/superwng.cpp) | superwng | Super Wing | `crashes after bonus stage, see notes, bad ROM?` |
+| [zaccaria/seabattl.cpp](https://github.com/mamedev/mame/blob/master/src/mame/zaccaria/seabattl.cpp) | armada | Armada | `different hardware` |
